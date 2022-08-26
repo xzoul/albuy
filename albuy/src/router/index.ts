@@ -1,6 +1,5 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import '../style.css'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,11 +19,21 @@ const routes: Array<RouteRecordRaw> = [
     path: '/test',
     name: 'test',
     component: () => import(/* webpackChunkName: "about" */ '../views/Test.vue')
-  }
+  },
+  {
+    path: '/AdminTest',
+    name: 'AdminTest',
+    component: () => import(/* webpackChunkName: "about" */ '../layouts/AdminTest.vue'),
+  },
+  {
+    path: '/ProductPageTest',
+    name: 'ProductPageTest',
+    component: () => import(/* webpackChunkName: "about" */ '../layouts/ProductPageTest.vue'),
+  },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
