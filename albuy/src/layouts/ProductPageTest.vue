@@ -1,8 +1,10 @@
 <template>
     <!--PRODUCTS-->
     <h3>Product Page</h3>
-    <span>Product Name: {{ProductName}}</span><br>
-    <span>Product Price: {{ProductPrice}}</span><br>
+    <span>Product Name: {{ProductData.ProductName}}</span><br>
+    <span>Product Price: {{ProductData.ProductPrice}}</span><br>
+    <span>Product Shop Name: {{ShopData.ShopName}}</span><br>
+    <img v-bind:src="ProductData.ProductImage">
 </template>
 
 <script>
@@ -12,9 +14,8 @@
         data(){
             return{
                 //Product Variables
-                ProductName: '',
-                ProductPrice: '',
-                ProductID: '',
+                ProductData: {},
+                ShopData: {},
             }
         },
         components:{
@@ -23,9 +24,9 @@
         methods:{
             async getProductData(ProductID){
                 var param = {"ProductID" : ProductID};
-                var data = JSON.parse(await Parse.Cloud.run("GetProductData", param));
-                this.ProductName = data.ProductName;
-                this.ProductPrice = data.ProductPrice;
+                this.ProductData = JSON.parse(await Parse.Cloud.run("GetProductData", param));
+                param = {"ShopID" : this.ProductData.ProductShopID};
+                this.ShopData = JSON.parse(await Parse.Cloud.run("GetShopData", param));
             },
         },
         beforeMount(){
