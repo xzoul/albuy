@@ -45,6 +45,18 @@
     <span>Shop Image: </span>
     <input @change="onShopImageSelected" type="file" name="img" accept="image/x-png,image/gif,image/jpeg"/><br>
     <button @click="addShop()">Add Shop</button>
+
+    <!--CATEGORIES-->
+    <h3>Add Category</h3>
+    <span>Category Name: </span>
+    <input v-model="CategoryName" type="text"><br>
+    <button @click="addCategory()">Add Category</button>
+
+    <!--SHIPPING FEES-->
+    <h3>Add Shipping Fee</h3>
+    <span>Shipping Fee Price: </span>
+    <input v-model="ShippingFeePrice" type="number"><br>
+    <button @click="addShippingFee()">Add Shipping Fee</button>
 </template>
 
 <script>
@@ -73,6 +85,14 @@
                 ShopImage: '',
                 ShopImageName: '',
                 Shops: [],
+
+                //Category Variables
+                CategoryName: '',
+                Categories: [],
+
+                //Shipping Fee Variables
+                ShippingFeePrice: '',
+                ShippingFees: [],
             }
         },
         components:{
@@ -250,6 +270,26 @@
                 this.getBase64(file).then(
                     data => this.ShopImage = data
                 );
+            },
+
+            //Category Functions
+            async addCategory(){
+                var params = {
+                    "CategoryName" : this.CategoryName,
+                }
+                await Parse.Cloud.run("AddCategory", params).then(()=>{
+                    alert("Added Category");
+                });
+            },
+
+            //ShippingFee Functions
+            async addShippingFee(){
+                var params = {
+                    "ShippingFeePrice" : this.ShippingFeePrice,
+                }
+                await Parse.Cloud.run("AddShippingFee", params).then(()=>{
+                    alert("Added Shipping Fee");
+                });
             },
         },
         beforeMount(){
