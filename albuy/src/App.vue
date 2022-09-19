@@ -8,8 +8,8 @@
 
 <script>
   import Parse from 'parse';
-  Parse.serverURL = "http://localhost:1337/api";
-  Parse.initialize("myAppId", "jspass");
+  Parse.serverURL = "https://parseapi.back4app.com/";
+  Parse.initialize("TUXzLCXn5SGneDRra9AkQbap7th7kqaNpWt7yDyY", "p3RbDlNG6TwerCtxBvgkM1m98LZzb4FrpqJ14Wr9");
 
   export default {
 

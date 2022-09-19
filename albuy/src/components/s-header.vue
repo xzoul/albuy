@@ -189,6 +189,9 @@ export default {
 
 
 
+
+
+
 @media(max-width: 991px) {
   .s-header-container2 {
     align-self: stretch;
