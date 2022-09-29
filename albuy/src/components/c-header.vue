@@ -26,7 +26,7 @@
             </path>
           </svg>
         </div>
-        <img alt="Untitled652022032713280332178" src="/playground_assets/albuylogo-1500h.png"
+        <img alt="Untitled652022032713280332178" src="@/playground_assets/albuylogo-1500h.png"
           class="c-header-albuylogo" />
       </div>
       <div class="c-header-container3">
@@ -52,7 +52,7 @@
           </svg>
         </button>
         <button class="c-header-accheader button">
-          <img alt="pastedImage" src="/playground_assets/pastedimage-516h-1500h.png" class="c-header-pasted-image" />
+          <img alt="pastedImage" src="@/playground_assets/pastedimage-516h-1500h.png" class="c-header-pasted-image" />
         </button>
       </div>
     </div>
@@ -97,6 +97,11 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
 .c-header-container {
   width: 100%;
   display: flex;

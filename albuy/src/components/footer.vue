@@ -84,7 +84,7 @@ export default {
     },
     albuylogo_src: {
       type: String,
-      default: '/playground_assets/albuylogo-1500h.png',
+      default: '@/playground_assets/albuylogo-1500h.png',
     },
     text2: {
       type: String,

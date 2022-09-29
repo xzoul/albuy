@@ -1,0 +1,1144 @@
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.s-shipment-and-orders-refund-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-container01 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-shipment-and-orders-refund-container02 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  border-right-width: 1px;
+}
+.s-shipment-and-orders-refund-group149 {
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text01 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text03 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text04 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text05 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text06 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text07 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-group150 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button01 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text08 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text09 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text10 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text11 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text12 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text13 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-group151 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button02 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text14 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text15 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text16 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text17 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text18 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-container03 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button03 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text19 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-container04 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button04 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text20 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-group152 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button05 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text21 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text22 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text23 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-group153 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-button06 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text24 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text25 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text26 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-container05 {
+  flex: 1;
+  width: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-group126 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: flex-start;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: 16px;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.s-shipment-and-orders-refund-button07 {
+  display: none;
+  padding: 0px;
+  font-size: 18px;
+  align-self: center;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-shipment-and-orders-refund-text27 {
+  width: auto;
+  font-size: 16px;
+  min-width: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+.s-shipment-and-orders-refund-icon14 {
+  width: 18px;
+  height: 18px;
+}
+.s-shipment-and-orders-refund-text28 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text29 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text30 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text31 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text32 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text33 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text34 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-container06 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-shipment-and-orders-refund-container07 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-shipment-and-orders-refund-text35 {
+  padding: var(--dl-space-space-unit);
+}
+.s-shipment-and-orders-refund-button08 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.s-shipment-and-orders-refund-icon16 {
+  width: 24px;
+  height: 24px;
+}
+.s-shipment-and-orders-refund-text36 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-shipment-and-orders-refund-container08 {
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-container09 {
+  display: flex;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  border-bottom-width: 1px;
+}
+.s-shipment-and-orders-refund-text37 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text38 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text39 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.s-shipment-and-orders-refund-text40 {
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 700;
+}
+.s-shipment-and-orders-refund-container10 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-shipment-and-orders-refund-image {
+  width: auto;
+  height: var(--dl-size-size-xxlarge);
+  align-self: stretch;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .s-shipment-and-orders-refund-container02 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-shipment-and-orders-refund-text {
+    min-width: auto;
+  }
+  .s-shipment-and-orders-refund-container05 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-shipment-and-orders-refund-group126 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .s-shipment-and-orders-refund-text27 {
+    font-size: 14px;
+  }
+  .s-shipment-and-orders-refund-text28 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text29 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text30 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text31 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text32 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text33 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text34 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-container06 {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .s-shipment-and-orders-refund-text35 {
+    font-size: 14px;
+  }
+  .s-shipment-and-orders-refund-button08 {
+    margin-right: 0px;
+  }
+  .s-shipment-and-orders-refund-text36 {
+    font-size: 14px;
+  }
+  .s-shipment-and-orders-refund-button09 {
+    font-size: 14px;
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .s-shipment-and-orders-refund-text37 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text38 {
+    font-size: 16px;
+  }
+  .s-shipment-and-orders-refund-text39 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 767px) {
+  .s-shipment-and-orders-refund-container02 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text {
+    width: auto;
+  }
+  .s-shipment-and-orders-refund-group126 {
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-start;
+  }
+  .s-shipment-and-orders-refund-button07 {
+    display: flex;
+    padding: 0px;
+    border-width: 0px;
+  }
+  .s-shipment-and-orders-refund-text27 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .s-shipment-and-orders-refund-text28 {
+    display: none;
+    font-size: 20px;
+    margin-left: var(--dl-space-space-unit);
+  }
+  .s-shipment-and-orders-refund-text29 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text30 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text31 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text32 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text33 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text34 {
+    display: none;
+  }
+  .s-shipment-and-orders-refund-text37 {
+    font-size: 20px;
+    margin-left: var(--dl-space-space-unit);
+  }
+  .s-shipment-and-orders-refund-text40 {
+    font-size: 20px;
+  }
+}
+@media(max-width: 470px) {
+  .s-shipment-and-orders-refund-container06 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-shipment-and-orders-refund-text35 {
+    padding: var(--dl-space-space-halfunit);
+    font-size: 12px;
+    text-align: right;
+  }
+  .s-shipment-and-orders-refund-icon16 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .s-shipment-and-orders-refund-text36 {
+    font-size: 12px;
+  }
+  .s-shipment-and-orders-refund-button09 {
+    padding: var(--dl-space-space-halfunit);
+    font-size: 12px;
+  }
+  .s-shipment-and-orders-refund-container08 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-shipment-and-orders-refund-text40 {
+    font-size: 18px;
+  }
+}

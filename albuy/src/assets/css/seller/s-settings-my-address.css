@@ -1,0 +1,1150 @@
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.s-settings-my-address-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.s-settings-my-address-container01 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-my-address-container02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-my-address-container03 {
+  display: none;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-my-address-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-container04 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  border-right-width: 1px;
+}
+.s-settings-my-address-group149 {
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-my-address-button {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text01 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text03 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text04 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text05 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text06 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text07 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text08 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-group150 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-my-address-button01 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-text10 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text11 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text12 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text13 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text14 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-group151 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-my-address-button02 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text15 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-text16 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text17 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text18 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text19 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-container05 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-settings-my-address-button03 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text20 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-container06 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-settings-my-address-button04 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text21 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-group152 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-my-address-button05 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text22 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-text23 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text24 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-group153 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-my-address-button06 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-my-address-text25 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-icon14 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-my-address-text26 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-text27 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-my-address-container07 {
+  flex: 1;
+  width: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  flex-direction: column;
+}
+.s-settings-my-address-container08 {
+  display: flex;
+  flex-direction: column;
+}
+.s-settings-my-address-container09 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.s-settings-my-address-text28 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-my-address-text29 {
+  padding: var(--dl-space-space-unit);
+}
+.s-settings-my-address-container10 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-settings-my-address-container11 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  justify-content: space-between;
+}
+.s-settings-my-address-container12 {
+  flex: 1;
+  display: flex;
+}
+.s-settings-my-address-icon16 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-unit);
+  align-self: flex-start;
+}
+.s-settings-my-address-container13 {
+  display: flex;
+  flex-direction: row;
+}
+.s-settings-my-address-container14 {
+  display: flex;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.s-settings-my-address-text30 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text31 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text32 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-container15 {
+  flex: 1;
+  display: flex;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.s-settings-my-address-text33 {
+  padding: var(--dl-space-space-halfunit);
+  font-style: normal;
+  font-weight: 600;
+}
+.s-settings-my-address-text34 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-container16 {
+  display: flex;
+  flex-direction: column;
+}
+.s-settings-my-address-text35 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text38 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text40 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-button08 {
+  padding: 0px;
+  align-self: flex-start;
+  border-width: 0px;
+}
+.s-settings-my-address-container17 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-settings-my-address-container18 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  justify-content: space-between;
+}
+.s-settings-my-address-container19 {
+  flex: 1;
+  display: flex;
+}
+.s-settings-my-address-icon18 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-unit);
+  align-self: flex-start;
+}
+.s-settings-my-address-container20 {
+  display: flex;
+  flex-direction: row;
+}
+.s-settings-my-address-container21 {
+  display: flex;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.s-settings-my-address-text44 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text45 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text46 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-container22 {
+  flex: 1;
+  display: flex;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.s-settings-my-address-text47 {
+  padding: var(--dl-space-space-halfunit);
+  font-style: normal;
+  font-weight: 600;
+}
+.s-settings-my-address-text48 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-container23 {
+  display: flex;
+  flex-direction: column;
+}
+.s-settings-my-address-text49 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text52 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-text54 {
+  padding: var(--dl-space-space-halfunit);
+}
+.s-settings-my-address-button09 {
+  padding: 0px;
+  align-self: flex-start;
+  border-width: 0px;
+}
+@media(max-width: 991px) {
+  .s-settings-my-address-container04 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-text01 {
+    min-width: auto;
+  }
+  .s-settings-my-address-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-text30 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text31 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text32 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text33 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text34 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text35 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text38 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text40 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text44 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text45 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text46 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text47 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text48 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text49 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text52 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text54 {
+    font-size: 14px;
+  }
+}
+@media(max-width: 767px) {
+  .s-settings-my-address-container01 {
+    padding: var(--dl-space-space-halfunit);
+    flex-direction: column;
+  }
+  .s-settings-my-address-container02 {
+    align-self: stretch;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: space-between;
+  }
+  .s-settings-my-address-container03 {
+    display: flex;
+    align-items: center;
+  }
+  .s-settings-my-address-icon {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .s-settings-my-address-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container04 {
+    display: none;
+  }
+  .s-settings-my-address-text01 {
+    width: auto;
+  }
+  .s-settings-my-address-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container09 {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  .s-settings-my-address-text28 {
+    font-size: 16px;
+  }
+  .s-settings-my-address-button07 {
+    font-size: 16px;
+  }
+  .s-settings-my-address-text29 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-container10 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container11 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-icon16 {
+    margin: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container17 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container18 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-icon18 {
+    margin: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 470px) {
+  .s-settings-my-address-container01 {
+    flex: 1;
+    width: auto;
+  }
+  .s-settings-my-address-container02 {
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-my-address-text {
+    font-size: 16px;
+  }
+  .s-settings-my-address-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-container09 {
+    justify-content: space-between;
+  }
+  .s-settings-my-address-text28 {
+    font-size: 16px;
+  }
+  .s-settings-my-address-button07 {
+    font-size: 14px;
+  }
+  .s-settings-my-address-text29 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-icon16 {
+    width: 1rem;
+    height: 2rem;
+    margin: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-text30 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text31 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text32 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text33 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text34 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text35 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text38 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text40 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text43 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-icon18 {
+    width: 1rem;
+    height: 2rem;
+    margin: var(--dl-space-space-halfunit);
+  }
+  .s-settings-my-address-text44 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text45 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text46 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text47 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text48 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text49 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text52 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text54 {
+    font-size: 12px;
+  }
+  .s-settings-my-address-text57 {
+    font-size: 12px;
+  }
+}

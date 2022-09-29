@@ -1,0 +1,1419 @@
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.s-settings-account-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.s-settings-account-container01 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-account-container02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-account-container03 {
+  display: none;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-settings-account-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-container04 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  border-right-width: 1px;
+}
+.s-settings-account-group149 {
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-account-button {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text01 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text03 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text04 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text05 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text06 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text07 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text08 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-group150 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-account-button01 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-text10 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text11 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text12 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text13 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text14 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-group151 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-account-button02 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text15 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-text16 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text17 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text18 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text19 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-container05 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-settings-account-button03 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text20 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-container06 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-settings-account-button04 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text21 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-group152 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-account-button05 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text22 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-text23 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text24 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-group153 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-settings-account-button06 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-text25 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-icon14 {
+  width: 24px;
+  height: 24px;
+}
+.s-settings-account-text26 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-text27 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-container07 {
+  flex: 1;
+  width: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  flex-direction: column;
+}
+.s-settings-account-container08 {
+  display: flex;
+  flex-direction: column;
+}
+.s-settings-account-container09 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.s-settings-account-text28 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.s-settings-account-text29 {
+  padding: var(--dl-space-space-unit);
+}
+.s-settings-account-container10 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-settings-account-container11 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  flex-direction: column;
+  border-bottom-width: 1px;
+}
+.s-settings-account-container12 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.s-settings-account-icon16 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-halfunit);
+}
+.s-settings-account-text30 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: var(--dl-size-size-large);
+  align-self: center;
+}
+.s-settings-account-container13 {
+  display: flex;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.s-settings-account-container14 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.s-settings-account-container15 {
+  display: flex;
+  flex-direction: row;
+}
+.s-settings-account-text31 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: 130px;
+  align-self: flex-start;
+  margin-right: var(--dl-space-space-unit);
+}
+.s-settings-account-container16 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.s-settings-account-textinput {
+  flex: 1;
+}
+.s-settings-account-text32 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 9px;
+  align-self: flex-end;
+}
+.s-settings-account-container17 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-settings-account-button07 {
+  font-size: 12px;
+  align-self: flex-start;
+}
+.s-settings-account-button08 {
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+}
+.s-settings-account-container18 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  flex-direction: column;
+  border-bottom-width: 1px;
+}
+.s-settings-account-container19 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-settings-account-icon18 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-halfunit);
+}
+.s-settings-account-text33 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: var(--dl-size-size-large);
+  align-self: center;
+}
+.s-settings-account-container20 {
+  display: flex;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.s-settings-account-container21 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.s-settings-account-text34 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: 130px;
+  align-self: flex-start;
+  margin-right: var(--dl-space-space-unit);
+}
+.s-settings-account-textinput1 {
+  flex: 1;
+}
+.s-settings-account-container22 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-settings-account-button09 {
+  font-size: 12px;
+  align-self: flex-start;
+}
+.s-settings-account-button10 {
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+}
+.s-settings-account-container23 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  flex-direction: column;
+  border-bottom-width: 1px;
+}
+.s-settings-account-container24 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-settings-account-icon20 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-halfunit);
+}
+.s-settings-account-text35 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: var(--dl-size-size-large);
+  align-self: center;
+}
+.s-settings-account-container25 {
+  display: flex;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.s-settings-account-container26 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.s-settings-account-text36 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: 130px;
+  align-self: flex-start;
+  margin-right: var(--dl-space-space-unit);
+}
+.s-settings-account-textinput2 {
+  flex: 1;
+}
+.s-settings-account-container27 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-settings-account-button11 {
+  font-size: 12px;
+  align-self: flex-start;
+}
+.s-settings-account-button12 {
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+}
+.s-settings-account-container28 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  flex-direction: column;
+  border-bottom-width: 1px;
+}
+.s-settings-account-container29 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-settings-account-icon22 {
+  width: 2rem;
+  height: 2rem;
+  margin: var(--dl-space-space-halfunit);
+}
+.s-settings-account-text37 {
+  padding: var(--dl-space-space-halfunit);
+  min-width: var(--dl-size-size-large);
+  align-self: center;
+}
+.s-settings-account-p-a-s-s-w-o-r-d-s {
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  max-height: auto;
+  min-height: auto;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s-settings-account-container30 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-currentpass {
+  color: var(--dl-color-gray-black);
+  height: auto;
+  font-size: 16px;
+  min-width: 150px;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-currentpassinput {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 16;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: .5px;
+  background-color: transparent;
+}
+.s-settings-account-container31 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-newpass {
+  color: var(--dl-color-gray-black);
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  min-width: 150px;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-newpassinput {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 16;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: .5px;
+  background-color: transparent;
+}
+.s-settings-account-container32 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-settings-account-confirmpass {
+  color: var(--dl-color-gray-black);
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  min-width: 150px;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-settings-account-confirmpassinput {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 16;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: .5px;
+  background-color: transparent;
+}
+.s-settings-account-container33 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-settings-account-button13 {
+  font-size: 12px;
+  align-self: flex-start;
+}
+.s-settings-account-button14 {
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .s-settings-account-container04 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-text01 {
+    min-width: auto;
+  }
+  .s-settings-account-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container17 {
+    justify-content: flex-end;
+  }
+  .s-settings-account-container22 {
+    justify-content: flex-end;
+  }
+  .s-settings-account-container27 {
+    justify-content: flex-end;
+  }
+  .s-settings-account-container33 {
+    justify-content: flex-end;
+  }
+}
+@media(max-width: 767px) {
+  .s-settings-account-container01 {
+    padding: var(--dl-space-space-halfunit);
+    flex-direction: column;
+  }
+  .s-settings-account-container02 {
+    align-self: stretch;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: space-between;
+  }
+  .s-settings-account-container03 {
+    display: flex;
+    align-items: center;
+  }
+  .s-settings-account-icon {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .s-settings-account-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container04 {
+    display: none;
+  }
+  .s-settings-account-text01 {
+    width: auto;
+  }
+  .s-settings-account-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container09 {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  .s-settings-account-text28 {
+    font-size: 16px;
+  }
+  .s-settings-account-text29 {
+    font-size: 14px;
+  }
+  .s-settings-account-container15 {
+    flex-direction: column;
+  }
+  .s-settings-account-container16 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container21 {
+    flex-direction: column;
+  }
+  .s-settings-account-textinput1 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container26 {
+    flex-direction: column;
+  }
+  .s-settings-account-textinput2 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-p-a-s-s-w-o-r-d-s {
+    align-self: stretch;
+    min-height: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .s-settings-account-container30 {
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .s-settings-account-currentpass {
+    font-size: 16px;
+    align-self: flex-start;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-currentpassinput {
+    width: 100%;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .s-settings-account-container31 {
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .s-settings-account-newpass {
+    font-size: 16px;
+    align-self: flex-start;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-newpassinput {
+    width: 100%;
+    align-self: stretch;
+    margin-left: 0px;
+  }
+  .s-settings-account-container32 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .s-settings-account-confirmpass {
+    font-size: 16px;
+    align-self: flex-start;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-confirmpassinput {
+    width: 100%;
+    align-self: stretch;
+    margin-left: 0px;
+  }
+}
+@media(max-width: 470px) {
+  .s-settings-account-container01 {
+    flex: 1;
+    width: auto;
+  }
+  .s-settings-account-container02 {
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-account-text {
+    font-size: 16px;
+  }
+  .s-settings-account-container07 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container09 {
+    justify-content: space-between;
+  }
+  .s-settings-account-text28 {
+    font-size: 16px;
+  }
+  .s-settings-account-text29 {
+    font-size: 12px;
+  }
+  .s-settings-account-container10 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container11 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-account-container13 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container14 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-text32 {
+    font-size: 7px;
+  }
+  .s-settings-account-container18 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-account-container20 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container21 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container23 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-account-container25 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container26 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .s-settings-account-container28 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .s-settings-account-p-a-s-s-w-o-r-d-s {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+    min-height: 230px;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .s-settings-account-container30 {
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .s-settings-account-currentpass {
+    font-size: 13px;
+    min-width: 75px;
+    align-self: flex-start;
+  }
+  .s-settings-account-currentpassinput {
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    font-size: 13;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: stretch;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .s-settings-account-container31 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .s-settings-account-newpass {
+    font-size: 13px;
+    min-width: 75px;
+    align-self: flex-start;
+  }
+  .s-settings-account-newpassinput {
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    font-size: 13;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: stretch;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .s-settings-account-container32 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .s-settings-account-confirmpass {
+    width: auto;
+    font-size: 13px;
+    min-width: 75px;
+    align-self: flex-start;
+  }
+  .s-settings-account-confirmpassinput {
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    font-size: 13;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: stretch;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
