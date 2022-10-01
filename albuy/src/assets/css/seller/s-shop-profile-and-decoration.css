@@ -1,239 +1,222 @@
-<template>
-  <div class="s-shop-profile-and-decoration-container">
-    <s-header rootClassName="s-header-root-class-name11"></s-header>
-    <div class="s-shop-profile-and-decoration-container01">
-      <div class="s-shop-profile-and-decoration-container02">
-        <div class="s-shop-profile-and-decoration-container03">
-          <svg viewBox="0 0 1024 1024" class="s-shop-profile-and-decoration-icon">
-            <path
-              d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-            ></path>
-          </svg>
-          <span class="s-shop-profile-and-decoration-text">Shop</span>
-        </div>
-      </div>
-      <div class="s-shop-profile-and-decoration-container04">
-        <div class="s-shop-profile-and-decoration-group149">
-          <button class="s-shop-profile-and-decoration-button button">
-            <span class="s-shop-profile-and-decoration-text01">
-              Shipment &amp; Orders
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon02"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-profile-and-decoration-text02">All</span>
-          <span class="s-shop-profile-and-decoration-text03">Unpaid</span>
-          <span class="s-shop-profile-and-decoration-text04">To Ship</span>
-          <span class="s-shop-profile-and-decoration-text05">Shipping</span>
-          <span class="s-shop-profile-and-decoration-text06">Completed</span>
-          <span class="s-shop-profile-and-decoration-text07">Cancellation</span>
-          <span class="s-shop-profile-and-decoration-text08">Return/Refund</span>
-        </div>
-        <div class="s-shop-profile-and-decoration-group150">
-          <button class="s-shop-profile-and-decoration-button1 button">
-            <span class="s-shop-profile-and-decoration-text09">Product</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon04"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-profile-and-decoration-text10">
-            Add New Product
-          </span>
-          <span class="s-shop-profile-and-decoration-text11">All</span>
-          <span class="s-shop-profile-and-decoration-text12">Live</span>
-          <span class="s-shop-profile-and-decoration-text13">Sold Out</span>
-          <span class="s-shop-profile-and-decoration-text14">Violation</span>
-        </div>
-        <div class="s-shop-profile-and-decoration-group151">
-          <button class="s-shop-profile-and-decoration-button2 button">
-            <span class="s-shop-profile-and-decoration-text15">
-              Discount Promotions
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon06"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-profile-and-decoration-text16">All</span>
-          <span class="s-shop-profile-and-decoration-text17">Ongoing</span>
-          <span class="s-shop-profile-and-decoration-text18">Upcoming</span>
-          <span class="s-shop-profile-and-decoration-text19">Expired</span>
-        </div>
-        <div class="s-shop-profile-and-decoration-container05">
-          <button class="s-shop-profile-and-decoration-button3 button">
-            <span class="s-shop-profile-and-decoration-text20">
-              Income Details
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon08"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shop-profile-and-decoration-container06">
-          <button class="s-shop-profile-and-decoration-button4 button">
-            <span class="s-shop-profile-and-decoration-text21">
-              Chat Auto Reply
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon10"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shop-profile-and-decoration-group152">
-          <button class="s-shop-profile-and-decoration-button5 button">
-            <span class="s-shop-profile-and-decoration-text22">Shop</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon12"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-profile-and-decoration-text23">Shop Rating</span>
-          <span class="s-shop-profile-and-decoration-text24">
-            Shop Profile and Decoration
-          </span>
-        </div>
-        <div class="s-shop-profile-and-decoration-group153">
-          <button class="s-shop-profile-and-decoration-button6 button">
-            <span class="s-shop-profile-and-decoration-text25">Settings</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-shop-profile-and-decoration-icon14"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-profile-and-decoration-text26">My Addresses</span>
-          <span class="s-shop-profile-and-decoration-text27">Account</span>
-        </div>
-      </div>
-      <div class="s-shop-profile-and-decoration-container07">
-        <div class="s-shop-profile-and-decoration-container08">
-          <div class="s-shop-profile-and-decoration-container09">
-            <span class="s-shop-profile-and-decoration-text28">
-              Shop Profile and Decoration
-            </span>
-          </div>
-          <span class="s-shop-profile-and-decoration-text29">
-            View your shop status and update your shop profile.
-          </span>
-        </div>
-        <div class="s-shop-profile-and-decoration-container10">
-          <span class="s-shop-profile-and-decoration-text30">
-            Basic Information
-          </span>
-        </div>
-        <div class="s-shop-profile-and-decoration-container11">
-          <div class="s-shop-profile-and-decoration-profile">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1649859394657-8762d8a4758a?ixid=Mnw5MTMyMXwxfDF8YWxsfDMxfHx8fHx8Mnx8MTY1NjY4MDczNA&amp;ixlib=rb-1.2.1&amp;h=300"
-              class="s-shop-profile-and-decoration-image"
-            />
-            <button class="s-shop-profile-and-decoration-changeprofile button">
-              Edit Cover Photo
-            </button>
-          </div>
-          <div class="s-shop-profile-and-decoration-container12">
-            <div class="s-shop-profile-and-decoration-container13">
-              <div class="s-shop-profile-and-decoration-profile1">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1656534938872-0d8c633a90e2?ixid=Mnw5MTMyMXwwfDF8YWxsfDM5fHx8fHx8Mnx8MTY1NjY4MDczNA&amp;ixlib=rb-1.2.1&amp;w=200"
-                  class="s-shop-profile-and-decoration-profileimg"
-                />
-                <button
-                  class="s-shop-profile-and-decoration-changeprofile1 button"
-                >
-                  Edit Profile Photo
-                </button>
-              </div>
-            </div>
-            <div class="s-shop-profile-and-decoration-container14">
-              <div class="s-shop-profile-and-decoration-container15">
-                <span class="s-shop-profile-and-decoration-text31">
-                  Shop Name
-                </span>
-                <div class="s-shop-profile-and-decoration-container16">
-                  <span class="s-shop-profile-and-decoration-text32">
-                    OTOP HUB
-                  </span>
-                  <span class="s-shop-profile-and-decoration-text33">
-                    <span>8</span>
-                    <span>/30</span>
-                  </span>
-                </div>
-              </div>
-              <div class="s-shop-profile-and-decoration-container17">
-                <span class="s-shop-profile-and-decoration-text36">
-                  Shop Description
-                </span>
-                <div class="s-shop-profile-and-decoration-container18">
-                  <span class="s-shop-profile-and-decoration-text37">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisiea commodo consequat.
-                  </span>
-                </div>
-                <span class="s-shop-profile-and-decoration-text38">
-                  <span>8</span>
-                  <span>/30</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="s-shop-profile-and-decoration-container19">
-          <button class="button s-shop-profile-and-decoration-button7">
-            Cancel
-          </button>
-          <button class="s-shop-profile-and-decoration-button8 button">
-            Save
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SShopProfileAndDecoration',
-  components: {
-    SHeader,
-  },
-  metaInfo: {
-    title: 'S-Shop-Profile-and-Decoration - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Shop-Profile-and-Decoration - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .s-shop-profile-and-decoration-container {
   width: 100%;
   display: flex;
@@ -1085,4 +1068,3 @@ export default {
     font-size: 12px;
   }
 }
-</style>

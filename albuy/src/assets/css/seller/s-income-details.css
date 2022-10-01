@@ -1,184 +1,223 @@
-<template>
-  <div class="s-shipment-and-orders-container">
-    <s-header rootClassName="s-header-root-class-name"></s-header>
-    <div class="s-shipment-and-orders-container01">
-      <div class="s-shipment-and-orders-container02">
-        <div class="s-shipment-and-orders-group149">
-          <button class="s-shipment-and-orders-button button">
-            <span class="s-shipment-and-orders-text">Shipment &amp; Orders</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text01">All</span>
-          <span class="s-shipment-and-orders-text02">Unpaid</span>
-          <span class="s-shipment-and-orders-text03">To Ship</span>
-          <span class="s-shipment-and-orders-text04">Shipping</span>
-          <span class="s-shipment-and-orders-text05">Completed</span>
-          <span class="s-shipment-and-orders-text06">Cancellation</span>
-          <span class="s-shipment-and-orders-text07">Return/Refund</span>
-        </div>
-        <div class="s-shipment-and-orders-group150">
-          <button class="s-shipment-and-orders-button01 button">
-            <span class="s-shipment-and-orders-text08">Product</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon02">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text09">Add New Product</span>
-          <span class="s-shipment-and-orders-text10">All</span>
-          <span class="s-shipment-and-orders-text11">Live</span>
-          <span class="s-shipment-and-orders-text12">Sold Out</span>
-          <span class="s-shipment-and-orders-text13">Violation</span>
-        </div>
-        <div class="s-shipment-and-orders-group151">
-          <button class="s-shipment-and-orders-button02 button">
-            <span class="s-shipment-and-orders-text14">Discount Promotions</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon04">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text15">All</span>
-          <span class="s-shipment-and-orders-text16">Ongoing</span>
-          <span class="s-shipment-and-orders-text17">Upcoming</span>
-          <span class="s-shipment-and-orders-text18">Expired</span>
-        </div>
-        <div class="s-shipment-and-orders-container03">
-          <button class="s-shipment-and-orders-button03 button">
-            <span class="s-shipment-and-orders-text19">Income Details</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon06">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shipment-and-orders-container04">
-          <button class="s-shipment-and-orders-button04 button">
-            <span class="s-shipment-and-orders-text20">Chat Auto Reply</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon08">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shipment-and-orders-group152">
-          <button class="s-shipment-and-orders-button05 button">
-            <span class="s-shipment-and-orders-text21">Shop</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon10">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text22">Shop Rating</span>
-          <span class="s-shipment-and-orders-text23">
-            Shop Profile and Decoration
-          </span>
-        </div>
-        <div class="s-shipment-and-orders-group153">
-          <button class="s-shipment-and-orders-button06 button">
-            <span class="s-shipment-and-orders-text24">Settings</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon12">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text25">My Addresses</span>
-          <span class="s-shipment-and-orders-text26">Account</span>
-        </div>
-      </div>
-      <div class="s-shipment-and-orders-container05">
-        <div class="s-shipment-and-orders-group126">
-          <button class="s-shipment-and-orders-button07 button">
-            <span class="s-shipment-and-orders-text27">All</span>
-            <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon14">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shipment-and-orders-text28">All</span>
-          <span class="s-shipment-and-orders-text29">Unpaid</span>
-          <span class="s-shipment-and-orders-text30">To Ship</span>
-          <span class="s-shipment-and-orders-text31">Shipping</span>
-          <span class="s-shipment-and-orders-text32">Completed</span>
-          <span class="s-shipment-and-orders-text33">Cancellation</span>
-          <span class="s-shipment-and-orders-text34">Return/Refund</span>
-        </div>
-        <div class="s-shipment-and-orders-container06">
-          <div class="s-shipment-and-orders-container07">
-            <span class="s-shipment-and-orders-text35">Order Creation Date</span>
-            <button class="s-shipment-and-orders-button08 button">
-              <svg
-                viewBox="0 0 950.8571428571428 1024"
-                class="s-shipment-and-orders-icon16"
-              >
-                <path
-                  d="M73.143 950.857h164.571v-164.571h-164.571v164.571zM274.286 950.857h182.857v-164.571h-182.857v164.571zM73.143 749.714h164.571v-182.857h-164.571v182.857zM274.286 749.714h182.857v-182.857h-182.857v182.857zM73.143 530.286h164.571v-164.571h-164.571v164.571zM493.714 950.857h182.857v-164.571h-182.857v164.571zM274.286 530.286h182.857v-164.571h-182.857v164.571zM713.143 950.857h164.571v-164.571h-164.571v164.571zM493.714 749.714h182.857v-182.857h-182.857v182.857zM292.571 256v-164.571c0-9.714-8.571-18.286-18.286-18.286h-36.571c-9.714 0-18.286 8.571-18.286 18.286v164.571c0 9.714 8.571 18.286 18.286 18.286h36.571c9.714 0 18.286-8.571 18.286-18.286zM713.143 749.714h164.571v-182.857h-164.571v182.857zM493.714 530.286h182.857v-164.571h-182.857v164.571zM713.143 530.286h164.571v-164.571h-164.571v164.571zM731.429 256v-164.571c0-9.714-8.571-18.286-18.286-18.286h-36.571c-9.714 0-18.286 8.571-18.286 18.286v164.571c0 9.714 8.571 18.286 18.286 18.286h36.571c9.714 0 18.286-8.571 18.286-18.286zM950.857 219.429v731.429c0 40-33.143 73.143-73.143 73.143h-804.571c-40 0-73.143-33.143-73.143-73.143v-731.429c0-40 33.143-73.143 73.143-73.143h73.143v-54.857c0-50.286 41.143-91.429 91.429-91.429h36.571c50.286 0 91.429 41.143 91.429 91.429v54.857h219.429v-54.857c0-50.286 41.143-91.429 91.429-91.429h36.571c50.286 0 91.429 41.143 91.429 91.429v54.857h73.143c40 0 73.143 33.143 73.143 73.143z"
-                ></path>
-              </svg>
-              <span class="s-shipment-and-orders-text36">
-                2022/05/22 - 2022/06/22
-              </span>
-            </button>
-          </div>
-          <button class="button s-shipment-and-orders-button09">Export</button>
-        </div>
-        <div class="s-shipment-and-orders-container08">
-          <div class="s-shipment-and-orders-container09">
-            <button class="s-shipment-and-orders-button10 button">
-              <span class="s-shipment-and-orders-text37">Order ID</span>
-              <svg viewBox="0 0 1024 1024" class="s-shipment-and-orders-icon18">
-                <path d="M298 426h428l-214 214z"></path>
-              </svg>
-            </button>
-            <div class="s-shipment-and-orders-search-bar">
-              <input type="text" class="s-shipment-and-orders-textinput input" />
-              <svg
-                viewBox="0 0 1024 1024"
-                class="s-shipment-and-orders-searchheader"
-              >
-                <path
-                  d="M406 598q80 0 136-56t56-136-56-136-136-56-136 56-56 136 56 136 136 56zM662 598l212 212-64 64-212-212v-34l-12-12q-76 66-180 66-116 0-197-80t-81-196 81-197 197-81 196 81 80 197q0 42-20 95t-46 85l12 12h34z"
-                ></path>
-              </svg>
-            </div>
-          </div>
-          <div class="s-shipment-and-orders-container10">
-            <button class="s-shipment-and-orders-button11 button">Search</button>
-            <button class="s-shipment-and-orders-button12 button">Reset</button>
-          </div>
-        </div>
-        <div class="s-shipment-and-orders-container11">
-          <span class="s-shipment-and-orders-text38">0 Orders</span>
-          <div class="s-shipment-and-orders-container12">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1564320382348-c06ae02a3897?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQzfHx0YWJsZXxlbnwwfHx8fDE2NTU5NTc3MDQ&amp;ixlib=rb-1.2.1&amp;h=300"
-              class="s-shipment-and-orders-image"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SShipmentAndOrders',
-  components: {
-    SHeader,
-  },
-  metaInfo: {
-    title: 'S-Shipment-and-Orders - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Shipment-and-Orders - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
-.s-shipment-and-orders-container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.s-income-details-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -186,7 +225,7 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-.s-shipment-and-orders-container01 {
+.s-income-details-container01 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -195,7 +234,7 @@ export default {
   align-items: flex-start;
   flex-direction: row;
 }
-.s-shipment-and-orders-container02 {
+.s-income-details-container02 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: flex-start;
@@ -204,7 +243,7 @@ export default {
   flex-direction: column;
   border-right-width: 1px;
 }
-.s-shipment-and-orders-group149 {
+.s-income-details-group149 {
   height: auto;
   display: flex;
   padding: var(--dl-space-space-halfunit);
@@ -213,7 +252,7 @@ export default {
   border-color: transparent;
   flex-direction: column;
 }
-.s-shipment-and-orders-button {
+.s-income-details-button {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   font-size: 18px;
@@ -222,15 +261,15 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text {
+.s-income-details-text {
   font-style: normal;
   font-weight: 700;
 }
-.s-shipment-and-orders-icon {
+.s-income-details-icon {
   width: 24px;
   height: 24px;
 }
-.s-shipment-and-orders-text01 {
+.s-income-details-text01 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -245,7 +284,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text02 {
+.s-income-details-text02 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -260,7 +299,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text03 {
+.s-income-details-text03 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -275,7 +314,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text04 {
+.s-income-details-text04 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -290,7 +329,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text05 {
+.s-income-details-text05 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -305,7 +344,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text06 {
+.s-income-details-text06 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -320,7 +359,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text07 {
+.s-income-details-text07 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -335,111 +374,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-group150 {
-  width: auto;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  box-sizing: border-box;
-  align-items: stretch;
-  flex-shrink: 1;
-  border-color: transparent;
-  flex-direction: column;
-}
-.s-shipment-and-orders-button01 {
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 18px;
-  max-width: auto;
-  align-items: center;
-  border-width: 0px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.s-shipment-and-orders-text08 {
-  font-style: normal;
-  font-weight: 700;
-}
-.s-shipment-and-orders-icon02 {
-  width: 24px;
-  height: 24px;
-}
-.s-shipment-and-orders-text09 {
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s-shipment-and-orders-text10 {
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s-shipment-and-orders-text11 {
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s-shipment-and-orders-text12 {
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s-shipment-and-orders-text13 {
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Roboto;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s-shipment-and-orders-group151 {
+.s-income-details-group150 {
   width: auto;
   height: auto;
   display: flex;
@@ -450,7 +385,7 @@ export default {
   border-color: transparent;
   flex-direction: column;
 }
-.s-shipment-and-orders-button02 {
+.s-income-details-button01 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   font-size: 18px;
@@ -460,15 +395,15 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text14 {
+.s-income-details-text08 {
   font-style: normal;
   font-weight: 700;
 }
-.s-shipment-and-orders-icon04 {
+.s-income-details-icon02 {
   width: 24px;
   height: 24px;
 }
-.s-shipment-and-orders-text15 {
+.s-income-details-text09 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -483,7 +418,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text16 {
+.s-income-details-text10 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -498,7 +433,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text17 {
+.s-income-details-text11 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -513,7 +448,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text18 {
+.s-income-details-text12 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -528,59 +463,22 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-container03 {
+.s-income-details-text13 {
+  color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
-  display: flex;
   padding: var(--dl-space-space-halfunit);
-  align-items: stretch;
-  flex-direction: column;
-}
-.s-shipment-and-orders-button03 {
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 18px;
-  max-width: auto;
-  align-items: center;
-  border-width: 0px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.s-shipment-and-orders-text19 {
+  font-size: 16px;
+  align-self: auto;
   font-style: normal;
-  font-weight: 700;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
-.s-shipment-and-orders-icon06 {
-  width: 24px;
-  height: 24px;
-}
-.s-shipment-and-orders-container04 {
-  width: auto;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  align-items: stretch;
-  flex-direction: column;
-}
-.s-shipment-and-orders-button04 {
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  font-size: 18px;
-  max-width: auto;
-  align-items: center;
-  border-width: 0px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.s-shipment-and-orders-text20 {
-  font-style: normal;
-  font-weight: 700;
-}
-.s-shipment-and-orders-icon08 {
-  width: 24px;
-  height: 24px;
-}
-.s-shipment-and-orders-group152 {
+.s-income-details-group151 {
   width: auto;
   height: auto;
   display: flex;
@@ -591,7 +489,7 @@ export default {
   border-color: transparent;
   flex-direction: column;
 }
-.s-shipment-and-orders-button05 {
+.s-income-details-button02 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   font-size: 18px;
@@ -601,15 +499,15 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text21 {
+.s-income-details-text14 {
   font-style: normal;
   font-weight: 700;
 }
-.s-shipment-and-orders-icon10 {
+.s-income-details-icon04 {
   width: 24px;
   height: 24px;
 }
-.s-shipment-and-orders-text22 {
+.s-income-details-text15 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -624,7 +522,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text23 {
+.s-income-details-text16 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -639,7 +537,89 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-group153 {
+.s-income-details-text17 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-income-details-text18 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-income-details-container03 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-income-details-button03 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-income-details-text19 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-income-details-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.s-income-details-container04 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  flex-direction: column;
+}
+.s-income-details-button04 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-income-details-text20 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-income-details-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.s-income-details-group152 {
   width: auto;
   height: auto;
   display: flex;
@@ -650,7 +630,7 @@ export default {
   border-color: transparent;
   flex-direction: column;
 }
-.s-shipment-and-orders-button06 {
+.s-income-details-button05 {
   display: flex;
   padding: var(--dl-space-space-halfunit);
   font-size: 18px;
@@ -660,15 +640,15 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text24 {
+.s-income-details-text21 {
   font-style: normal;
   font-weight: 700;
 }
-.s-shipment-and-orders-icon12 {
+.s-income-details-icon10 {
   width: 24px;
   height: 24px;
 }
-.s-shipment-and-orders-text25 {
+.s-income-details-text22 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -683,7 +663,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text26 {
+.s-income-details-text23 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -698,7 +678,66 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-container05 {
+.s-income-details-group153 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+.s-income-details-button06 {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  max-width: auto;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-income-details-text24 {
+  font-style: normal;
+  font-weight: 700;
+}
+.s-income-details-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.s-income-details-text25 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-income-details-text26 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s-income-details-container05 {
   flex: 1;
   width: auto;
   display: flex;
@@ -706,7 +745,7 @@ export default {
   align-self: stretch;
   flex-direction: column;
 }
-.s-shipment-and-orders-group126 {
+.s-income-details-group126 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
@@ -721,7 +760,16 @@ export default {
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.s-shipment-and-orders-button07 {
+.s-income-details-container06 {
+  display: none;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.s-income-details-icon14 {
+  width: 24px;
+  height: 24px;
+}
+.s-income-details-button07 {
   display: none;
   padding: 0px;
   font-size: 18px;
@@ -731,18 +779,18 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text27 {
+.s-income-details-text28 {
   width: auto;
   font-size: 16px;
   min-width: auto;
   font-style: normal;
   font-weight: 500;
 }
-.s-shipment-and-orders-icon14 {
+.s-income-details-icon16 {
   width: 18px;
   height: 18px;
 }
-.s-shipment-and-orders-text28 {
+.s-income-details-text29 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -756,7 +804,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text29 {
+.s-income-details-text30 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -770,7 +818,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text30 {
+.s-income-details-text31 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -784,7 +832,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text31 {
+.s-income-details-text32 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -798,7 +846,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text32 {
+.s-income-details-text33 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -812,7 +860,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text33 {
+.s-income-details-text34 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -826,7 +874,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-text34 {
+.s-income-details-text35 {
   color: rgba(0, 0, 0, 1);
   width: auto;
   height: auto;
@@ -840,7 +888,7 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
-.s-shipment-and-orders-container06 {
+.s-income-details-container07 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: stretch;
@@ -848,45 +896,45 @@ export default {
   flex-direction: row;
   justify-content: flex-end;
 }
-.s-shipment-and-orders-container07 {
+.s-income-details-container08 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.s-shipment-and-orders-text35 {
+.s-income-details-text36 {
   padding: var(--dl-space-space-unit);
 }
-.s-shipment-and-orders-button08 {
+.s-income-details-button08 {
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.s-shipment-and-orders-icon16 {
+.s-income-details-icon18 {
   width: 24px;
   height: 24px;
 }
-.s-shipment-and-orders-text36 {
+.s-income-details-text37 {
   margin-left: var(--dl-space-space-halfunit);
 }
-.s-shipment-and-orders-container08 {
+.s-income-details-container09 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-container09 {
+.s-income-details-container10 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-button10 {
+.s-income-details-button10 {
   display: flex;
   font-size: 18px;
   align-self: center;
@@ -894,18 +942,18 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-text37 {
+.s-income-details-text38 {
   width: auto;
   font-size: 16px;
   min-width: auto;
   font-style: normal;
   font-weight: 500;
 }
-.s-shipment-and-orders-icon18 {
+.s-income-details-icon20 {
   width: 18px;
   height: 18px;
 }
-.s-shipment-and-orders-search-bar {
+.s-income-details-search-bar {
   flex: 1;
   width: auto;
   height: auto;
@@ -919,7 +967,7 @@ export default {
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.s-shipment-and-orders-textinput {
+.s-income-details-textinput {
   width: 100%;
   height: 100%;
   padding-top: var(--dl-space-space-halfunit);
@@ -929,7 +977,7 @@ export default {
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.s-shipment-and-orders-searchheader {
+.s-income-details-searchheader {
   width: 30px;
   height: auto;
   padding: 4px;
@@ -938,171 +986,191 @@ export default {
   border-width: 0px;
   border-left-width: 1px;
 }
-.s-shipment-and-orders-container10 {
+.s-income-details-container11 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.s-shipment-and-orders-button11 {
+.s-income-details-button11 {
   margin-left: var(--dl-space-space-unit);
 }
-.s-shipment-and-orders-button12 {
+.s-income-details-button12 {
   margin-left: var(--dl-space-space-unit);
 }
-.s-shipment-and-orders-container11 {
+.s-income-details-container12 {
   height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.s-shipment-and-orders-text38 {
+.s-income-details-text39 {
   padding: var(--dl-space-space-unit);
   font-size: 20px;
   align-self: flex-start;
   font-style: normal;
   font-weight: 700;
 }
-.s-shipment-and-orders-container12 {
+.s-income-details-container13 {
   display: flex;
   padding: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.s-shipment-and-orders-image {
+.s-income-details-image {
   width: auto;
   height: var(--dl-size-size-xxlarge);
   align-self: stretch;
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .s-shipment-and-orders-container02 {
+  .s-income-details-container02 {
     padding: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-text {
+  .s-income-details-text {
     min-width: auto;
   }
-  .s-shipment-and-orders-container05 {
+  .s-income-details-container05 {
     padding: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-group126 {
+  .s-income-details-group126 {
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-text27 {
+  .s-income-details-text28 {
     font-size: 14px;
   }
-  .s-shipment-and-orders-text28 {
+  .s-income-details-text29 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text29 {
+  .s-income-details-text30 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text30 {
+  .s-income-details-text31 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text31 {
+  .s-income-details-text32 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text32 {
+  .s-income-details-text33 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text33 {
+  .s-income-details-text34 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-text34 {
+  .s-income-details-text35 {
     font-size: 16px;
   }
-  .s-shipment-and-orders-container06 {
+  .s-income-details-container07 {
     align-items: flex-end;
     flex-direction: column;
   }
-  .s-shipment-and-orders-text35 {
+  .s-income-details-text36 {
     font-size: 14px;
   }
-  .s-shipment-and-orders-button08 {
+  .s-income-details-button08 {
     margin-right: 0px;
   }
-  .s-shipment-and-orders-text36 {
+  .s-income-details-text37 {
     font-size: 14px;
   }
-  .s-shipment-and-orders-button09 {
+  .s-income-details-button09 {
     font-size: 14px;
     margin-top: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-container08 {
+  .s-income-details-container09 {
     align-items: flex-end;
     flex-direction: column;
   }
-  .s-shipment-and-orders-text37 {
+  .s-income-details-text38 {
     font-size: 14px;
   }
-  .s-shipment-and-orders-search-bar {
+  .s-income-details-search-bar {
     justify-content: space-between;
   }
-  .s-shipment-and-orders-textinput {
+  .s-income-details-textinput {
     width: 100%;
     border-radius: 15px;
   }
-  .s-shipment-and-orders-container10 {
+  .s-income-details-container11 {
     margin-top: var(--dl-space-space-unit);
   }
-  .s-shipment-and-orders-button11 {
+  .s-income-details-button11 {
     font-size: 14px;
   }
-  .s-shipment-and-orders-button12 {
+  .s-income-details-button12 {
     font-size: 14px;
   }
 }
 @media(max-width: 767px) {
-  .s-shipment-and-orders-container02 {
+  .s-income-details-container02 {
     display: none;
   }
-  .s-shipment-and-orders-text {
+  .s-income-details-text {
     width: auto;
   }
-  .s-shipment-and-orders-group126 {
+  .s-income-details-group126 {
+    align-self: stretch;
     align-items: center;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    justify-content: flex-start;
+    justify-content: space-between;
   }
-  .s-shipment-and-orders-button07 {
+  .s-income-details-container06 {
     display: flex;
-    padding: 0px;
-    border-width: 0px;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-  .s-shipment-and-orders-text27 {
+  .s-income-details-icon14 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .s-income-details-text27 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-income-details-button07 {
+    display: flex;
+    padding-top: 0px;
+    border-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .s-income-details-text28 {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
   }
-  .s-shipment-and-orders-text28 {
+  .s-income-details-text29 {
     display: none;
     font-size: 20px;
     margin-left: var(--dl-space-space-unit);
   }
-  .s-shipment-and-orders-text29 {
+  .s-income-details-text30 {
     display: none;
   }
-  .s-shipment-and-orders-text30 {
+  .s-income-details-text31 {
     display: none;
   }
-  .s-shipment-and-orders-text31 {
+  .s-income-details-text32 {
     display: none;
   }
-  .s-shipment-and-orders-text32 {
+  .s-income-details-text33 {
     display: none;
   }
-  .s-shipment-and-orders-text33 {
+  .s-income-details-text34 {
     display: none;
   }
-  .s-shipment-and-orders-text34 {
+  .s-income-details-text35 {
     display: none;
   }
-  .s-shipment-and-orders-search-bar {
+  .s-income-details-search-bar {
     height: 100%;
   }
-  .s-shipment-and-orders-textinput {
+  .s-income-details-textinput {
     width: 100%;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -1110,76 +1178,85 @@ export default {
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .s-shipment-and-orders-searchheader {
+  .s-income-details-searchheader {
     width: 2rem;
     height: 1.5rem;
   }
-  .s-shipment-and-orders-text38 {
+  .s-income-details-text39 {
     font-size: 20px;
   }
 }
 @media(max-width: 470px) {
-  .s-shipment-and-orders-container06 {
+  .s-income-details-group126 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .s-income-details-text27 {
+    font-size: 16px;
+  }
+  .s-income-details-text28 {
+    font-size: 16px;
+  }
+  .s-income-details-container07 {
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .s-shipment-and-orders-text35 {
+  .s-income-details-text36 {
     padding: var(--dl-space-space-halfunit);
     font-size: 12px;
     text-align: right;
   }
-  .s-shipment-and-orders-icon16 {
+  .s-income-details-icon18 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
   }
-  .s-shipment-and-orders-text36 {
+  .s-income-details-text37 {
     font-size: 12px;
   }
-  .s-shipment-and-orders-button09 {
+  .s-income-details-button09 {
     padding: var(--dl-space-space-halfunit);
     font-size: 12px;
   }
-  .s-shipment-and-orders-container08 {
+  .s-income-details-container09 {
     padding: var(--dl-space-space-unit);
   }
-  .s-shipment-and-orders-button10 {
+  .s-income-details-button10 {
     padding: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-text37 {
+  .s-income-details-text38 {
     font-size: 12px;
   }
-  .s-shipment-and-orders-search-bar {
+  .s-income-details-search-bar {
     height: 100%;
     margin-left: var(--dl-space-space-unit);
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
     margin-right: 0px;
   }
-  .s-shipment-and-orders-textinput {
+  .s-income-details-textinput {
     width: 100%;
     height: 100%;
     padding: 0px;
     border-radius: 15px;
   }
-  .s-shipment-and-orders-searchheader {
+  .s-income-details-searchheader {
     width: 2rem;
     height: 100%;
   }
-  .s-shipment-and-orders-button11 {
+  .s-income-details-button11 {
     padding: var(--dl-space-space-halfunit);
     font-size: 12px;
   }
-  .s-shipment-and-orders-button12 {
+  .s-income-details-button12 {
     padding: var(--dl-space-space-halfunit);
     font-size: 12px;
   }
-  .s-shipment-and-orders-container11 {
+  .s-income-details-container12 {
     padding: var(--dl-space-space-halfunit);
   }
-  .s-shipment-and-orders-text38 {
+  .s-income-details-text39 {
     font-size: 18px;
   }
 }
-</style>

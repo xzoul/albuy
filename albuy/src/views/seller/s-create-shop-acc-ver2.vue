@@ -66,6 +66,7 @@
         <!--TESTING-->
         <div>
           <button @click="continueSignup()" :disabled="ContinueButtonDisabled" >Continue</button>
+          <button @click="continueSignup()">Skip</button>
         </div>
         <!--TESTING-->
       </div>

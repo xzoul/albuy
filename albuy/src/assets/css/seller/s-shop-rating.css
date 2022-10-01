@@ -1,199 +1,222 @@
-<template>
-  <div class="s-shop-rating-container">
-    <s-header rootClassName="s-header-root-class-name10"></s-header>
-    <div class="s-shop-rating-container01">
-      <div class="s-shop-rating-container02">
-        <div class="s-shop-rating-container03">
-          <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon">
-            <path
-              d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-            ></path>
-          </svg>
-          <span class="s-shop-rating-text">Income Details</span>
-        </div>
-        <button class="s-shop-rating-button button">
-          <span class="s-shop-rating-text01">All</span>
-          <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon02">
-            <path d="M298 426h428l-214 214z"></path>
-          </svg>
-        </button>
-      </div>
-      <div class="s-shop-rating-container04">
-        <div class="s-shop-rating-group149">
-          <button class="s-shop-rating-button01 button">
-            <span class="s-shop-rating-text02">Shipment &amp; Orders</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon04">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-rating-text03">All</span>
-          <span class="s-shop-rating-text04">Unpaid</span>
-          <span class="s-shop-rating-text05">To Ship</span>
-          <span class="s-shop-rating-text06">Shipping</span>
-          <span class="s-shop-rating-text07">Completed</span>
-          <span class="s-shop-rating-text08">Cancellation</span>
-          <span class="s-shop-rating-text09">Return/Refund</span>
-        </div>
-        <div class="s-shop-rating-group150">
-          <button class="s-shop-rating-button02 button">
-            <span class="s-shop-rating-text10">Product</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon06">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-rating-text11">Add New Product</span>
-          <span class="s-shop-rating-text12">All</span>
-          <span class="s-shop-rating-text13">Live</span>
-          <span class="s-shop-rating-text14">Sold Out</span>
-          <span class="s-shop-rating-text15">Violation</span>
-        </div>
-        <div class="s-shop-rating-group151">
-          <button class="s-shop-rating-button03 button">
-            <span class="s-shop-rating-text16">Discount Promotions</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon08">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-rating-text17">All</span>
-          <span class="s-shop-rating-text18">Ongoing</span>
-          <span class="s-shop-rating-text19">Upcoming</span>
-          <span class="s-shop-rating-text20">Expired</span>
-        </div>
-        <div class="s-shop-rating-container05">
-          <button class="s-shop-rating-button04 button">
-            <span class="s-shop-rating-text21">Income Details</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon10">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shop-rating-container06">
-          <button class="s-shop-rating-button05 button">
-            <span class="s-shop-rating-text22">Chat Auto Reply</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon12">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-shop-rating-group152">
-          <button class="s-shop-rating-button06 button">
-            <span class="s-shop-rating-text23">Shop</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon14">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-rating-text24">Shop Rating</span>
-          <span class="s-shop-rating-text25">Shop Profile and Decoration</span>
-        </div>
-        <div class="s-shop-rating-group153">
-          <button class="s-shop-rating-button07 button">
-            <span class="s-shop-rating-text26">Settings</span>
-            <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon16">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-shop-rating-text27">My Addresses</span>
-          <span class="s-shop-rating-text28">Account</span>
-        </div>
-      </div>
-      <div class="s-shop-rating-container07">
-        <div class="s-shop-rating-container08">
-          <div class="s-shop-rating-container09">
-            <span class="s-shop-rating-text29">Shop Rating</span>
-            <div class="s-shop-rating-container10">
-              <span class="s-shop-rating-text30">0.0</span>
-              <span class="s-shop-rating-text31">/5</span>
-            </div>
-          </div>
-          <span class="s-shop-rating-text32">View the ratings to your shop</span>
-        </div>
-        <div class="s-shop-rating-container11">
-          <div class="s-shop-rating-container12">
-            <span class="s-shop-rating-text33">Product Name</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-shop-rating-textinput input"
-            />
-          </div>
-          <div class="s-shop-rating-container13">
-            <span class="s-shop-rating-text34">Variation Name</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-shop-rating-textinput1 input"
-            />
-          </div>
-        </div>
-        <div class="s-shop-rating-container14">
-          <div class="s-shop-rating-container15">
-            <span class="s-shop-rating-text35">User Name</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-shop-rating-textinput2 input"
-            />
-          </div>
-          <div class="s-shop-rating-container16">
-            <span class="s-shop-rating-text36">Review Date</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-shop-rating-textinput3 input"
-            />
-          </div>
-        </div>
-        <div class="s-shop-rating-container17">
-          <button class="button s-shop-rating-button08">Reset</button>
-          <button class="s-shop-rating-button09 button">Search</button>
-        </div>
-        <div class="s-shop-rating-container18">
-          <div class="s-shop-rating-group126">
-            <button class="s-shop-rating-button10 button">
-              <span class="s-shop-rating-text37">All</span>
-              <svg viewBox="0 0 1024 1024" class="s-shop-rating-icon18">
-                <path d="M298 426h428l-214 214z"></path>
-              </svg>
-            </button>
-            <span class="s-shop-rating-text38">All</span>
-            <span class="s-shop-rating-text39">5 Star</span>
-            <span class="s-shop-rating-text40">4 Star</span>
-            <span class="s-shop-rating-text41">3 Star</span>
-            <span class="s-shop-rating-text42">2 Star</span>
-            <span class="s-shop-rating-text43">1 Star</span>
-          </div>
-          <img
-            alt="image"
-            src="https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fHRhYmxlfGVufDB8fHx8MTY1NTk1NzY5OA&amp;ixlib=rb-1.2.1&amp;w=200"
-            class="s-shop-rating-image"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SShopRating',
-  components: {
-    SHeader,
-  },
-  metaInfo: {
-    title: 'S-Shop-Rating - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Shop-Rating - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .s-shop-rating-container {
   width: 100%;
   display: flex;
@@ -1274,4 +1297,3 @@ export default {
     padding: var(--dl-space-space-halfunit);
   }
 }
-</style>

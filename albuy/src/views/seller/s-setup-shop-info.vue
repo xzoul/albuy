@@ -5,8 +5,8 @@
       <div class="s-setup-shop-info-container02">
         <div class="s-setup-shop-info-container03">
           <span class="s-setup-shop-info-text">Shop Name</span>
-          <input
-            type="password"
+          <input v-model="ShopName"
+            type="text"
             class="s-setup-shop-info-currentpassinput input"
           />
         </div>
@@ -15,65 +15,58 @@
         </div>
         <div class="s-setup-shop-info-container05">
           <span class="s-setup-shop-info-text02">Full Name</span>
-          <input
-            type="password"
+          <input v-model="FullName"
+            type="text"
             class="s-setup-shop-info-currentpassinput01 input"
-          />
-        </div>
-        <div class="s-setup-shop-info-container06">
-          <span class="s-setup-shop-info-text03">Phone Number</span>
-          <input
-            type="password"
-            class="s-setup-shop-info-currentpassinput02 input"
           />
         </div>
         <div class="s-setup-shop-info-container07">
           <span class="s-setup-shop-info-text04">Province</span>
-          <input
-            type="password"
+          <input v-model="Province"
+            type="text"
             class="s-setup-shop-info-currentpassinput03 input"
           />
         </div>
         <div class="s-setup-shop-info-container08">
-          <span class="s-setup-shop-info-text05">City</span>
-          <input
-            type="password"
+          <span class="s-setup-shop-info-text05">Municipality/City</span>
+          <input v-model="Municipality"
+            type="text"
             class="s-setup-shop-info-currentpassinput04 input"
           />
         </div>
         <div class="s-setup-shop-info-container09">
           <span class="s-setup-shop-info-text06">Barangay</span>
-          <input
-            type="password"
+          <input v-model="Barangay"
+            type="text"
             class="s-setup-shop-info-currentpassinput05 input"
           />
         </div>
         <div class="s-setup-shop-info-container10">
           <span class="s-setup-shop-info-text07">Detailed Address</span>
-          <input
-            type="password"
+          <input v-model="DetailedAddress"
+            type="text"
             class="s-setup-shop-info-currentpassinput06 input"
           />
         </div>
         <div class="s-setup-shop-info-container11">
           <span class="s-setup-shop-info-text08">Postal Code</span>
-          <input
-            type="password"
+          <input v-model="PostalCode"
+            type="text"
             class="s-setup-shop-info-currentpassinput07 input"
           />
         </div>
         <div class="s-setup-shop-info-container12">
           <span class="s-setup-shop-info-text09">Email</span>
-          <input
-            type="password"
+          <input v-model="Email"
+            type="text"
             class="s-setup-shop-info-currentpassinput08 input"
           />
         </div>
         <div class="s-setup-shop-info-container13">
           <div class="s-setup-shop-info-container14">
             <span class="s-setup-shop-info-text10">Phone Number</span>
-            <input
-              type="password"
+            <input v-model="PhoneNumber"
+              type="text"
               class="s-setup-shop-info-currentpassinput09 input"
             />
           </div>
@@ -82,8 +75,9 @@
           </span>
         </div>
         <div class="s-setup-shop-info-container15">
-          <button class="button s-setup-shop-info-button">Cancel</button>
-          <button class="s-setup-shop-info-button1 button">
+          <button @click="cancelShopAddress()" class="button s-setup-shop-info-button">Cancel</button>
+          <button v-if="!NewAddress" @click="removeShopAddress()" class="button s-setup-shop-info-button1">Remove</button>
+          <button @click="saveShopAddress()" class="s-setup-shop-info-button1 button">
             <span class="s-setup-shop-info-text13">
               <span>Save</span>
               <span></span>
@@ -97,8 +91,9 @@
 </template>
 
 <script>
-import CHeader from '../components/c-header'
-import AppFooter from '../components/footer'
+import Parse from 'parse';
+import CHeader from '@/components/c-header'
+import AppFooter from '@/components/footer'
 
 export default {
   name: 'SSetupShopInfo',
@@ -115,10 +110,103 @@ export default {
       },
     ],
   },
+  beforeMount(){
+    console.log(Parse.User.current().get("AccountID"));
+    var id = this.$route.query.ShopAddressID;
+    if(id == "new"){
+      this.NewAddress = true;
+    }
+    else{
+      this.getShopAddressData(this.$route.query.ShopAddressID);
+    }
+  },
+
+  data(){
+    return{
+      NewAddress: false,
+      ShopAddressID: "",
+      ShopID: "",
+      ShopName: "",
+      FullName: "",
+      Province: "",
+      Municipality: "",
+      Barangay: "",
+      DetailedAddress: "",
+      PostalCode: "",
+      Email: "",
+      PhoneNumber: "",
+    }
+  },
+  
+  methods:{
+    async getShopAddressData(ShopAddressID){
+      var param = {"ShopAddressID" : ShopAddressID};
+      var data = JSON.parse(await Parse.Cloud.run("GetShopAddressData", param));
+      this.ShopAddressID = ShopAddressID;
+      this.ShopID = data.ShopID;
+      this.ShopName = data.ShopName;
+      this.FullName = data.FullName;
+      this.Province = data.Province;
+      this.Municipality = data.Municipality;
+      this.Barangay = data.Barangay;
+      this.DetailedAddress = data.StreetAddress;
+      this.PostalCode = data.PostalCode;
+      this.Email = data.Email;
+      this.PhoneNumber = data.PhoneNumber;
+    },
+
+    async saveShopAddress(){
+      var param = {
+        "ShopID" : this.ShopID,
+        "ShopName" : this.ShopName,
+        "FullName" : this.FullName,
+        "Province" : this.Province,
+        "Municipality" : this.Municipality,
+        "Barangay" : this.Barangay,
+        "StreetAddress" : this.DetailedAddress,
+        "PostalCode" : this.PostalCode,
+        "Email" : this.Email,
+        "PhoneNumber" : this.PhoneNumber,
+      };
+
+      if(!this.NewAddress){
+        param["ShopAddressID"] = this.ShopAddressID,
+        await Parse.Cloud.run("EditShopAddress", param).then(()=>{
+          this.cancelShopAddress();
+        });
+      }
+      else{
+        param["ShopID"] = Parse.User.current().get("AccountID");
+        await Parse.Cloud.run("AddShopAddress", param).then(()=>{
+          this.cancelShopAddress();
+        });
+      }
+    },
+
+    async cancelShopAddress(){
+      //go back
+      this.$router.push({
+        name: 's-product-all',
+        query: {
+          Tab: "settings_my_address",
+        }
+      });
+    },
+
+    async removeShopAddress(){
+      var param = {"ShopAddressID" : this.ShopAddressID};
+      await Parse.Cloud.run("DeleteShopAddress", param).then(()=>{
+        this.cancelShopAddress();
+      });
+    },
+
+  }
 }
 </script>
 
-<style scoped>
+<style>
+html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+
 .s-setup-shop-info-container {
   width: 100%;
   display: flex;

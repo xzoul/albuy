@@ -1,228 +1,222 @@
-<template>
-  <div class="s-discount-promotions-create-new-container">
-    <s-header rootClassName="s-header-root-class-name16"></s-header>
-    <div class="s-discount-promotions-create-new-container01">
-      <div class="s-discount-promotions-create-new-container02">
-        <div class="s-discount-promotions-create-new-group149">
-          <button class="s-discount-promotions-create-new-button button">
-            <span class="s-discount-promotions-create-new-text">
-              Shipment &amp; Orders
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-text01">All</span>
-          <span class="s-discount-promotions-create-new-text02">Unpaid</span>
-          <span class="s-discount-promotions-create-new-text03">To Ship</span>
-          <span class="s-discount-promotions-create-new-text04">Shipping</span>
-          <span class="s-discount-promotions-create-new-text05">Completed</span>
-          <span class="s-discount-promotions-create-new-text06">
-            Cancellation
-          </span>
-          <span class="s-discount-promotions-create-new-text07">
-            Return/Refund
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-group150">
-          <button class="s-discount-promotions-create-new-button1 button">
-            <span class="s-discount-promotions-create-new-text08">Product</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon02"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-text09">
-            Add New Product
-          </span>
-          <span class="s-discount-promotions-create-new-text10">All</span>
-          <span class="s-discount-promotions-create-new-text11">Live</span>
-          <span class="s-discount-promotions-create-new-text12">Sold Out</span>
-          <span class="s-discount-promotions-create-new-text13">Violation</span>
-        </div>
-        <div class="s-discount-promotions-create-new-group151">
-          <button class="s-discount-promotions-create-new-button2 button">
-            <span class="s-discount-promotions-create-new-text14">
-              Discount Promotions
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon04"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-text15">All</span>
-          <span class="s-discount-promotions-create-new-text16">Ongoing</span>
-          <span class="s-discount-promotions-create-new-text17">Upcoming</span>
-          <span class="s-discount-promotions-create-new-text18">Expired</span>
-        </div>
-        <div class="s-discount-promotions-create-new-container03">
-          <button class="s-discount-promotions-create-new-button3 button">
-            <span class="s-discount-promotions-create-new-text19">
-              Income Details
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon06"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-discount-promotions-create-new-container04">
-          <button class="s-discount-promotions-create-new-button4 button">
-            <span class="s-discount-promotions-create-new-text20">
-              Chat Auto Reply
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon08"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-discount-promotions-create-new-group152">
-          <button class="s-discount-promotions-create-new-button5 button">
-            <span class="s-discount-promotions-create-new-text21">Shop</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon10"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-text22">Shop Rating</span>
-          <span class="s-discount-promotions-create-new-text23">
-            Shop Profile and Decoration
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-group153">
-          <button class="s-discount-promotions-create-new-button6 button">
-            <span class="s-discount-promotions-create-new-text24">Settings</span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-icon12"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-text25">
-            My Addresses
-          </span>
-          <span class="s-discount-promotions-create-new-text26">Account</span>
-        </div>
-      </div>
-      <div class="s-discount-promotions-create-new-container05">
-        <svg
-          viewBox="0 0 1024 1024"
-          class="s-discount-promotions-create-new-icon14"
-        >
-          <path
-            d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-          ></path>
-        </svg>
-      </div>
-      <div class="s-discount-promotions-create-new-container06">
-        <div class="s-discount-promotions-create-new-container07">
-          <div class="s-discount-promotions-create-new-group126">
-            <span class="s-discount-promotions-create-new-text27">
-              Create New Discount Promotion
-            </span>
-          </div>
-          <div class="s-discount-promotions-create-new-container08">
-            <span class="s-discount-promotions-create-new-text28">
-              Promotion Period
-            </span>
-            <button class="s-discount-promotions-create-new-button7 button">
-              <svg
-                viewBox="0 0 950.8571428571428 1024"
-                class="s-discount-promotions-create-new-icon16"
-              >
-                <path
-                  d="M73.143 950.857h164.571v-164.571h-164.571v164.571zM274.286 950.857h182.857v-164.571h-182.857v164.571zM73.143 749.714h164.571v-182.857h-164.571v182.857zM274.286 749.714h182.857v-182.857h-182.857v182.857zM73.143 530.286h164.571v-164.571h-164.571v164.571zM493.714 950.857h182.857v-164.571h-182.857v164.571zM274.286 530.286h182.857v-164.571h-182.857v164.571zM713.143 950.857h164.571v-164.571h-164.571v164.571zM493.714 749.714h182.857v-182.857h-182.857v182.857zM292.571 256v-164.571c0-9.714-8.571-18.286-18.286-18.286h-36.571c-9.714 0-18.286 8.571-18.286 18.286v164.571c0 9.714 8.571 18.286 18.286 18.286h36.571c9.714 0 18.286-8.571 18.286-18.286zM713.143 749.714h164.571v-182.857h-164.571v182.857zM493.714 530.286h182.857v-164.571h-182.857v164.571zM713.143 530.286h164.571v-164.571h-164.571v164.571zM731.429 256v-164.571c0-9.714-8.571-18.286-18.286-18.286h-36.571c-9.714 0-18.286 8.571-18.286 18.286v164.571c0 9.714 8.571 18.286 18.286 18.286h36.571c9.714 0 18.286-8.571 18.286-18.286zM950.857 219.429v731.429c0 40-33.143 73.143-73.143 73.143h-804.571c-40 0-73.143-33.143-73.143-73.143v-731.429c0-40 33.143-73.143 73.143-73.143h73.143v-54.857c0-50.286 41.143-91.429 91.429-91.429h36.571c50.286 0 91.429 41.143 91.429 91.429v54.857h219.429v-54.857c0-50.286 41.143-91.429 91.429-91.429h36.571c50.286 0 91.429 41.143 91.429 91.429v54.857h73.143c40 0 73.143 33.143 73.143 73.143z"
-                ></path>
-              </svg>
-              <span class="s-discount-promotions-create-new-text29">
-                2022/05/22 - 2022/06/22
-              </span>
-            </button>
-          </div>
-          <div class="s-discount-promotions-create-new-container09">
-            <span class="s-discount-promotions-create-new-text30">
-              Promotion Name
-            </span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-discount-promotions-create-new-textinput input"
-            />
-          </div>
-          <div class="s-discount-promotions-create-new-container10">
-            <span class="s-discount-promotions-create-new-text31">
-              <span>
-                Promotion
-                <span v-html="rawjhfs"></span>
-              </span>
-              <br />
-              <span>Description</span>
-            </span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              class="s-discount-promotions-create-new-textinput1 input"
-            />
-          </div>
-        </div>
-        <div class="s-discount-promotions-create-new-container11">
-          <span class="s-discount-promotions-create-new-text35">
-            Discount Promotion Products
-          </span>
-          <div class="s-discount-promotions-create-new-container12">
-            <button class="button s-discount-promotions-create-new-button8">
-              + Add Products
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SDiscountPromotionsCreateNew',
-  components: {
-    SHeader,
-  },
-
-  data() {
-    return {
-      rawjhfs: ' ',
-    }
-  },
-
-  metaInfo: {
-    title: 'S-Discount-PromotionsCreateNew - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Discount-PromotionsCreateNew - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .s-discount-promotions-create-new-container {
   width: 100%;
   display: flex;
@@ -1012,4 +1006,3 @@ export default {
     font-size: 12px;
   }
 }
-</style>

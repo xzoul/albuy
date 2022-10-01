@@ -19,12 +19,22 @@ const routes: Array<RouteRecordRaw> = [
     name: 'c-product',
     component: () => import(/* webpackChunkName: "about" */ '../views/customer/c-product.vue'),
   },
+  {
+    path: '/c-my-cart',
+    name: 'c-my-cart',
+    component: () => import(/* webpackChunkName: "about" */ '../views/customer/c-my-cart.vue'),
+  },
 
   //Seller
   {
     path: '/s-add-new-product',
     name: 's-add-new-product',
     component: () => import(/* webpackChunkName: "about" */ '../views/seller/s-add-new-product-responsive.vue'),
+  },
+  {
+    path: '/s-add-new-product-2',
+    name: 's-add-new-product-2',
+    component: () => import(/* webpackChunkName: "about" */ '../views/seller/s-add-new-product-responsive-2.vue'),
   },
   {
     path: '/s-sign-in',

@@ -1,172 +1,222 @@
-<template>
-  <div class="s-chat-auto-reply-container">
-    <s-header rootClassName="s-header-root-class-name9"></s-header>
-    <div class="s-chat-auto-reply-container01">
-      <div class="s-chat-auto-reply-container02">
-        <div class="s-chat-auto-reply-container03">
-          <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon">
-            <path
-              d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-            ></path>
-          </svg>
-          <span class="s-chat-auto-reply-text">Income Details</span>
-        </div>
-        <button class="s-chat-auto-reply-button button">
-          <span class="s-chat-auto-reply-text01">All</span>
-          <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon02">
-            <path d="M298 426h428l-214 214z"></path>
-          </svg>
-        </button>
-      </div>
-      <div class="s-chat-auto-reply-container04">
-        <div class="s-chat-auto-reply-group149">
-          <button class="s-chat-auto-reply-button01 button">
-            <span class="s-chat-auto-reply-text02">Shipment &amp; Orders</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon04">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-chat-auto-reply-text03">All</span>
-          <span class="s-chat-auto-reply-text04">Unpaid</span>
-          <span class="s-chat-auto-reply-text05">To Ship</span>
-          <span class="s-chat-auto-reply-text06">Shipping</span>
-          <span class="s-chat-auto-reply-text07">Completed</span>
-          <span class="s-chat-auto-reply-text08">Cancellation</span>
-          <span class="s-chat-auto-reply-text09">Return/Refund</span>
-        </div>
-        <div class="s-chat-auto-reply-group150">
-          <button class="s-chat-auto-reply-button02 button">
-            <span class="s-chat-auto-reply-text10">Product</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon06">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-chat-auto-reply-text11">Add New Product</span>
-          <span class="s-chat-auto-reply-text12">All</span>
-          <span class="s-chat-auto-reply-text13">Live</span>
-          <span class="s-chat-auto-reply-text14">Sold Out</span>
-          <span class="s-chat-auto-reply-text15">Violation</span>
-        </div>
-        <div class="s-chat-auto-reply-group151">
-          <button class="s-chat-auto-reply-button03 button">
-            <span class="s-chat-auto-reply-text16">Discount Promotions</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon08">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-chat-auto-reply-text17">All</span>
-          <span class="s-chat-auto-reply-text18">Ongoing</span>
-          <span class="s-chat-auto-reply-text19">Upcoming</span>
-          <span class="s-chat-auto-reply-text20">Expired</span>
-        </div>
-        <div class="s-chat-auto-reply-container05">
-          <button class="s-chat-auto-reply-button04 button">
-            <span class="s-chat-auto-reply-text21">Income Details</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon10">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-chat-auto-reply-container06">
-          <button class="s-chat-auto-reply-button05 button">
-            <span class="s-chat-auto-reply-text22">Chat Auto Reply</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon12">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-chat-auto-reply-group152">
-          <button class="s-chat-auto-reply-button06 button">
-            <span class="s-chat-auto-reply-text23">Shop</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon14">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-chat-auto-reply-text24">Shop Rating</span>
-          <span class="s-chat-auto-reply-text25">
-            Shop Profile and Decoration
-          </span>
-        </div>
-        <div class="s-chat-auto-reply-group153">
-          <button class="s-chat-auto-reply-button07 button">
-            <span class="s-chat-auto-reply-text26">Settings</span>
-            <svg viewBox="0 0 1024 1024" class="s-chat-auto-reply-icon16">
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-chat-auto-reply-text27">My Addresses</span>
-          <span class="s-chat-auto-reply-text28">Account</span>
-        </div>
-      </div>
-      <div class="s-chat-auto-reply-container07">
-        <div class="s-chat-auto-reply-container08">
-          <div class="s-chat-auto-reply-container09">
-            <span class="s-chat-auto-reply-text29">Chat Auto Reply</span>
-            <svg
-              viewBox="0 0 1170.2857142857142 1024"
-              class="s-chat-auto-reply-icon18"
-            >
-              <path
-                d="M658.286 512c0-161.143-131.429-292.571-292.571-292.571s-292.571 131.429-292.571 292.571 131.429 292.571 292.571 292.571 292.571-131.429 292.571-292.571zM1097.143 512c0-161.143-131.429-292.571-292.571-292.571h-220.571c89.143 66.857 147.429 173.143 147.429 292.571s-58.286 225.714-147.429 292.571h220.571c161.143 0 292.571-131.429 292.571-292.571zM1170.286 512c0 201.714-164 365.714-365.714 365.714h-438.857c-201.714 0-365.714-164-365.714-365.714s164-365.714 365.714-365.714h438.857c201.714 0 365.714 164 365.714 365.714z"
-              ></path>
-            </svg>
-          </div>
-          <span class="s-chat-auto-reply-text30">
-            When enabled, this Auto-Reply will be sent once the buyer initiates
-            the conversation.
-          </span>
-        </div>
-        <div class="s-chat-auto-reply-container10">
-          <span class="s-chat-auto-reply-text31">
-            Edit Shop Auto-Reply Message
-            <span v-html="rawtbcr"></span>
-          </span>
-          <div class="s-chat-auto-reply-container11">
-            <span class="s-chat-auto-reply-text32">
-              You can put greetings, shop policies, promotions, shop and chat
-              hours or any other information you wish to let customers know in the
-              message. Maximum of 600 characters only.
-            </span>
-          </div>
-          <span class="s-chat-auto-reply-text33">69/500</span>
-        </div>
-        <div class="s-chat-auto-reply-container12">
-          <button class="s-chat-auto-reply-button08 button">Cancel</button>
-          <button class="s-chat-auto-reply-button09 button">Save</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SChatAutoReply',
-  components: {
-    SHeader,
-  },
-
-  data() {
-    return {
-      rawtbcr: ' ',
-    }
-  },
-
-  metaInfo: {
-    title: 'S-Chat-Auto-Reply - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Chat-Auto-Reply - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .s-chat-auto-reply-container {
   width: 100%;
   display: flex;
@@ -905,4 +955,3 @@ export default {
     font-size: 12px;
   }
 }
-</style>

@@ -1,316 +1,222 @@
-<template>
-  <div class="s-discount-promotions-create-new-add-prod-container">
-    <s-header rootClassName="s-header-root-class-name17"></s-header>
-    <div class="s-discount-promotions-create-new-add-prod-container01">
-      <div class="s-discount-promotions-create-new-add-prod-container02">
-        <div class="s-discount-promotions-create-new-add-prod-group149">
-          <button class="s-discount-promotions-create-new-add-prod-button button">
-            <span class="s-discount-promotions-create-new-add-prod-text">
-              Shipment &amp; Orders
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-add-prod-text01">
-            All
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text02">
-            Unpaid
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text03">
-            To Ship
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text04">
-            Shipping
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text05">
-            Completed
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text06">
-            Cancellation
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text07">
-            Return/Refund
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-group150">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button01 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text08">
-              Product
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon02"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-add-prod-text09">
-            Add New Product
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text10">
-            All
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text11">
-            Live
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text12">
-            Sold Out
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text13">
-            Violation
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-group151">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button02 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text14">
-              Discount Promotions
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon04"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-add-prod-text15">
-            All
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text16">
-            Ongoing
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text17">
-            Upcoming
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text18">
-            Expired
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-container03">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button03 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text19">
-              Income Details
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon06"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-container04">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button04 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text20">
-              Chat Auto Reply
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon08"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-group152">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button05 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text21">
-              Shop
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon10"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-add-prod-text22">
-            Shop Rating
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text23">
-            Shop Profile and Decoration
-          </span>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-group153">
-          <button
-            class="s-discount-promotions-create-new-add-prod-button06 button"
-          >
-            <span class="s-discount-promotions-create-new-add-prod-text24">
-              Settings
-            </span>
-            <svg
-              viewBox="0 0 1024 1024"
-              class="s-discount-promotions-create-new-add-prod-icon12"
-            >
-              <path d="M298 426h428l-214 214z"></path>
-            </svg>
-          </button>
-          <span class="s-discount-promotions-create-new-add-prod-text25">
-            My Addresses
-          </span>
-          <span class="s-discount-promotions-create-new-add-prod-text26">
-            Account
-          </span>
-        </div>
-      </div>
-      <div class="s-discount-promotions-create-new-add-prod-container05">
-        <svg
-          viewBox="0 0 1024 1024"
-          class="s-discount-promotions-create-new-add-prod-icon14"
-        >
-          <path
-            d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-          ></path>
-        </svg>
-      </div>
-      <div class="s-discount-promotions-create-new-add-prod-container06">
-        <div class="s-discount-promotions-create-new-add-prod-container07">
-          <div class="s-discount-promotions-create-new-add-prod-group126">
-            <span class="s-discount-promotions-create-new-add-prod-text27">
-              Discount Promotion Products
-            </span>
-          </div>
-          <div class="s-discount-promotions-create-new-add-prod-container08">
-            <span class="s-discount-promotions-create-new-add-prod-text28">
-              Select Products
-            </span>
-            <div class="s-discount-promotions-create-new-add-prod-container09">
-              <div class="s-discount-promotions-create-new-add-prod-container10">
-                <span class="s-discount-promotions-create-new-add-prod-text29">
-                  Category
-                </span>
-                <select class="s-discount-promotions-create-new-add-prod-select">
-                  <option value="Option 1">All Categories</option>
-                  <option value="Option 2">Processed Foods</option>
-                  <option value="New Option">Arts and Crafts</option>
-                  <option value="Option 3">Agri-based Products</option>
-                  <option value="New Option">Home and Fashion</option>
-                  <option value="New Option">Others</option>
-                </select>
-              </div>
-              <div class="s-discount-promotions-create-new-add-prod-container11">
-                <div
-                  class="s-discount-promotions-create-new-add-prod-container12"
-                >
-                  <select
-                    class="s-discount-promotions-create-new-add-prod-select1"
-                  >
-                    <option value="Option 1" selected>Product Name</option>
-                    <option value="Option 2">Sales</option>
-                    <option value="Option 3">Price</option>
-                  </select>
-                  <div
-                    class="s-discount-promotions-create-new-add-prod-search-bar"
-                  >
-                    <input
-                      type="text"
-                      class="s-discount-promotions-create-new-add-prod-textinput input"
-                    />
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      class="s-discount-promotions-create-new-add-prod-searchheader"
-                    >
-                      <path
-                        d="M406 598q80 0 136-56t56-136-56-136-136-56-136 56-56 136 56 136 136 56zM662 598l212 212-64 64-212-212v-34l-12-12q-76 66-180 66-116 0-197-80t-81-196 81-197 197-81 196 81 80 197q0 42-20 95t-46 85l12 12h34z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div
-                  class="s-discount-promotions-create-new-add-prod-container13"
-                >
-                  <input type="checkbox" checked="true" />
-                  <span class="s-discount-promotions-create-new-add-prod-text30">
-                    Search for available products only
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="s-discount-promotions-create-new-add-prod-container14">
-              <button
-                class="s-discount-promotions-create-new-add-prod-button07 button"
-              >
-                Search
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="s-discount-promotions-create-new-add-prod-container15">
-          <div class="s-discount-promotions-create-new-add-prod-container16">
-            <div class="s-discount-promotions-create-new-add-prod-container17">
-              <span class="s-discount-promotions-create-new-add-prod-text31">
-                Phone Number
-              </span>
-            </div>
-            <div class="s-discount-promotions-create-new-add-prod-container18">
-              <span class="s-discount-promotions-create-new-add-prod-text32">
-                Shop Name
-              </span>
-            </div>
-            <div class="s-discount-promotions-create-new-add-prod-container19">
-              <span class="s-discount-promotions-create-new-add-prod-text33">
-                Shop Username
-              </span>
-            </div>
-            <div class="s-discount-promotions-create-new-add-prod-container20">
-              <span class="s-discount-promotions-create-new-add-prod-text34">
-                Uploaded Documents
-              </span>
-            </div>
-          </div>
-          <div class="s-discount-promotions-create-new-add-prod-container21">
-            <button
-              class="button s-discount-promotions-create-new-add-prod-button08"
-            >
-              Confirm
-            </button>
-            <button
-              class="s-discount-promotions-create-new-add-prod-button09 button"
-            >
-              Cancel
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import SHeader from '../components/s-header'
-
-export default {
-  name: 'SDiscountPromotionsCreateNewAddProd',
-  components: {
-    SHeader,
-  },
-  metaInfo: {
-    title: 'S-Discount-PromotionsCreateNewAddProd - exported project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'S-Discount-PromotionsCreateNewAddProd - exported project',
-      },
-    ],
-  },
+.s-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-</script>
+.s-header-container1 {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.s-header-container2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.s-header-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-icon {
+  width: 24px;
+  height: 24px;
+}
+.s-header-text1 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.s-header-container3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.s-header-albuylogo {
+  height: 4rem;
+  align-self: center;
+}
+.s-header-container4 {
+  width: 33%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-header-button {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.s-header-pasted-image {
+  height: 2rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.s-header-text2 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.s-header-container5 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+  border-left-width: 1px;
+}
+.s-header-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.s-header-icon6 {
+  width: 24px;
+  height: 24px;
+}
 
-<style scoped>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .s-header-container2 {
+    align-self: stretch;
+  }
+  .s-header-container3 {
+    align-self: stretch;
+  }
+  .s-header-container4 {
+    height: auto;
+    align-self: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .s-header-container {
+    justify-content: space-between;
+  }
+  .s-header-container1 {
+    justify-content: space-between;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 18px;
+  }
+  .s-header-text1 {
+    font-size: 18px;
+  }
+  .s-header-container3 {
+    display: none;
+  }
+  .s-header-albuylogo {
+    height: 2rem;
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-button {
+    padding: 0px;
+  }
+  .s-header-pasted-image {
+    height: 1.5rem;
+  }
+  .s-header-text2 {
+    font-size: 18px;
+  }
+}
+@media(max-width: 470px) {
+  .s-header-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+  }
+  .s-header-container2 {
+    width: auto;
+  }
+  .s-header-text {
+    font-size: 16px;
+  }
+  .s-header-text1 {
+    font-size: 16px;
+  }
+  .s-header-container3 {
+    width: 30%;
+  }
+  .s-header-albuylogo {
+    width: auto;
+    height: 1.5rem;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .s-header-container4 {
+    width: auto;
+  }
+  .s-header-pasted-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+  }
+  .s-header-text2 {
+    font-size: 16px;
+  }
+  .s-header-container5 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .s-header-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .s-header-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .s-discount-promotions-create-new-add-prod-container {
   width: 100%;
   display: flex;
@@ -1319,4 +1225,3 @@ export default {
     font-size: 12px;
   }
 }
-</style>
