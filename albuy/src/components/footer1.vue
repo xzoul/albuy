@@ -98,91 +98,7 @@ export default {
 }
 </script>
 
-<style>
-html {
-  line-height: 1.15;
-}
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-}
-
-p,
-li,
-ul,
-pre,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-button:-moz-focus,
-[type="button"]:-moz-focus,
-[type="reset"]:-moz-focus,
-[type="submit"]:-moz-focus {
-  outline: 1px dotted ButtonText;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-input {
-  padding: 2px 4px;
-}
-
-img {
-  display: block;
-}
-
-html {
-  scroll-behavior: smooth
-}
-
+<style scoped>
 .footer-container {
   width: 100%;
   height: auto;
@@ -195,7 +111,6 @@ html {
   border-width: 0px;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--dl-color-gray-white);
   border-top-width: 1px;
 }
 
@@ -209,7 +124,6 @@ html {
 }
 
 .footer-albuylogo {
-  width: var(--dl-size-size-xxlarge);
   height: 4REM;
   align-self: center;
   margin-left: var(--dl-space-space-oneandhalfunits);
@@ -454,6 +368,10 @@ html {
   align-self: center;
 }
 
+.footer-root-class-name {
+  background-color: #019EDB;
+}
+
 .footer-root-class-name1 {
   left: 0px;
   bottom: 0px;
@@ -514,11 +432,6 @@ html {
 }
 
 
-.footer-root-class-name15 {
-  left: 0px;
-  bottom: 0px;
-  position: static;
-}
 
 
 
@@ -531,20 +444,6 @@ html {
 
 
 
-
-.footer-root-class-name29 {
-  left: 0px;
-  bottom: 0px;
-  position: static;
-  align-self: center;
-}
-
-.footer-root-class-name30 {
-  left: 0px;
-  bottom: 0px;
-  position: static;
-  align-self: center;
-}
 
 
 @media(max-width: 991px) {
@@ -555,7 +454,6 @@ html {
   }
 
   .footer-albuylogo {
-    width: var(--dl-size-size-xlarge);
     height: 3rem;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-twounits);
@@ -576,10 +474,6 @@ html {
   .footer-root-class-name1 {
     position: static;
   }
-
-  .footer-root-class-name29 {
-    position: static;
-  }
 }
 
 @media(max-width: 767px) {
@@ -593,8 +487,6 @@ html {
   }
 
   .footer-albuylogo {
-    width: var(--dl-size-size-xlarge);
-    height: 3rem;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -668,7 +560,55 @@ html {
     display: none;
   }
 
+  .footer-root-class-name4 {
+    display: none;
+  }
+
   .footer-root-class-name5 {
+    display: none;
+  }
+
+  .footer-root-class-name6 {
+    display: none;
+  }
+
+  .footer-root-class-name8 {
+    display: none;
+  }
+
+  .footer-root-class-name12 {
+    display: none;
+  }
+
+  .footer-root-class-name13 {
+    display: none;
+  }
+
+  .footer-root-class-name14 {
+    display: none;
+  }
+
+  .footer-root-class-name15 {
+    display: none;
+  }
+
+  .footer-root-class-name16 {
+    display: none;
+  }
+
+  .footer-root-class-name17 {
+    display: none;
+  }
+
+  .footer-root-class-name18 {
+    display: none;
+  }
+
+  .footer-root-class-name22 {
+    display: none;
+  }
+
+  .footer-root-class-name24 {
     display: none;
   }
 
@@ -676,8 +616,12 @@ html {
     display: none;
   }
 
-  .footer-root-class-name29 {
-    position: static;
+  .footer-root-class-name27 {
+    display: none;
+  }
+
+  .footer-root-class-name28 {
+    display: none;
   }
 }
 
@@ -761,6 +705,10 @@ html {
     position: static;
   }
 
+  .footer-root-class-name4 {
+    display: none;
+  }
+
   .footer-root-class-name5 {
     display: none;
     position: static;
@@ -777,23 +725,61 @@ html {
   }
 
   .footer-root-class-name8 {
+    display: none;
     position: static;
+    margin-top: var(--dl-space-space-threeunits);
   }
 
   .footer-root-class-name9 {
     display: flex;
   }
 
+  .footer-root-class-name12 {
+    display: none;
+  }
+
+  .footer-root-class-name13 {
+    display: none;
+  }
+
+  .footer-root-class-name14 {
+    display: none;
+  }
+
+  .footer-root-class-name15 {
+    display: none;
+  }
+
+  .footer-root-class-name16 {
+    display: none;
+  }
+
+  .footer-root-class-name17 {
+    display: none;
+  }
+
   .footer-root-class-name18 {
-    display: flex;
+    display: none;
+  }
+
+  .footer-root-class-name22 {
+    display: none;
+  }
+
+  .footer-root-class-name24 {
+    display: none;
   }
 
   .footer-root-class-name26 {
     display: none;
   }
 
-  .footer-root-class-name29 {
-    position: static;
+  .footer-root-class-name27 {
+    display: none;
+  }
+
+  .footer-root-class-name28 {
+    display: none;
   }
 }
 </style>

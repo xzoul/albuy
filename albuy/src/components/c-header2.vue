@@ -3,17 +3,17 @@
     <header data-role="Accordion" class="c-header-header">
       <nav class="c-header-nav">
         <nav class="c-header-nav1">
-          <span class="c-header-text button">Seller Centre</span>
-          <span class="c-header-text1 button">Become a Seller</span>
-          <span class="c-header-text2 button">About Us</span>
-          <button class="c-header-text3 button" @click="showCustomerSupport()">Customer Support</button>
+          <span class="c-header-text">Seller Centre</span>
+          <span class="c-header-text1">Become a Seller</span>
+          <span class="c-header-text2">About Us</span>
+          <button class="c-header-text3" @click="showCustomerSupport()">Customer Support</button>
         </nav>
       </nav>
       <nav class="c-header-nav2">
         <nav class="c-header-nav3">
-          <button class="c-header-notification button" @click="showNotifications()">Notification</button>
-          <span class="c-header-signup button">Sign Up</span>
-          <span class="c-header-login button">Log In</span>
+          <button class="c-header-text4" @click="showNotifications()">Notification</button>
+          <button class="c-header-text5">Sign Up</button>
+          <button class="c-header-text6">Log In</button>
         </nav>
       </nav>
     </header>
@@ -26,8 +26,10 @@
             </path>
           </svg>
         </div>
-        <img alt="Untitled652022032713280332178" src="/playground_assets/albuylogo-1500h.png" class="c-header-albuylogo"
-          @click="showIndex()" />
+        <button @click="showIndex()">
+          <img alt="Untitled652022032713280332178" src="/playground_assets/albuylogo-1500h.png"
+            class="c-header-albuylogo" />
+        </button>
       </div>
       <div class="c-header-container3">
         <div class="c-header-search-bar">
@@ -38,6 +40,7 @@
             </path>
           </svg>
         </div>
+
         <button class="c-header-cartheader button" @click="showCart()">
           <svg viewBox="0 0 1024 1024" class="c-header-carticon">
             <path
@@ -51,6 +54,7 @@
             </path>
           </svg>
         </button>
+
         <button class="c-header-accheader button">
           <img alt="pastedImage" src="/playground_assets/pastedimage-516h-1500h.png" class="c-header-pasted-image" />
         </button>
@@ -210,6 +214,7 @@ html {
   scroll-behavior: smooth
 }
 
+
 .c-header-container {
   width: 100%;
   display: flex;
@@ -218,23 +223,24 @@ html {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-gray-white);
 }
 
 .c-header-header {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-unit);
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
   align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
   justify-content: space-between;
 }
 
 .c-header-nav {
-  align-self: center;
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
 }
 
 .c-header-nav1 {
@@ -246,29 +252,25 @@ html {
 
 .c-header-text {
   font-size: 14px;
-  border-width: 0px;
-  background-color: transparent;
 }
 
 .c-header-text1 {
   font-size: 14px;
-  border-width: 0px;
-  background-color: transparent;
+  margin-left: var(--dl-space-space-unit);
 }
 
 .c-header-text2 {
   font-size: 14px;
-  border-width: 0px;
-  background-color: transparent;
+  margin-left: var(--dl-space-space-unit);
 }
 
 .c-header-text3 {
   font-size: 14px;
-  border-width: 0px;
-  background-color: transparent;
+  margin-left: var(--dl-space-space-unit);
 }
 
 .c-header-nav2 {
+  padding: var(--dl-space-space-unit);
   align-self: flex-end;
 }
 
@@ -279,26 +281,22 @@ html {
   flex-direction: row;
 }
 
-.c-header-notification {
+.c-header-text4 {
   font-size: 14px;
-  border-width: 0px;
-  background-color: transparent;
 }
 
-.c-header-signup {
+.c-header-text5 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  border-width: 0px;
-  background-color: transparent;
+  margin-left: var(--dl-space-space-oneandhalfunits);
 }
 
-.c-header-login {
+.c-header-text6 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  border-width: 0px;
-  background-color: transparent;
+  margin-left: var(--dl-space-space-unit);
 }
 
 .c-header-container1 {
@@ -308,7 +306,7 @@ html {
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
   align-items: center;
-  padding-top: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-black);
   border-width: 0px;
   padding-left: var(--dl-space-space-twounits);
@@ -316,7 +314,7 @@ html {
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
-  border-bottom-width: 1px;
+  border-bottom-width: 1.5px;
 }
 
 .c-header-container2 {
@@ -338,7 +336,6 @@ html {
 }
 
 .c-header-albuylogo {
-  width: 230px;
   height: 4rem;
   align-self: center;
 }
@@ -379,6 +376,9 @@ html {
   width: 3rem;
   height: 2rem;
   align-self: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-left-width: 1px;
 }
 
 .c-header-cartheader {
@@ -436,61 +436,9 @@ html {
 
 
 
-.c-header-root-class-name23 {
-  align-self: stretch;
-}
-
-.c-header-root-class-name24 {
-  align-self: center;
-}
-
-.c-header-root-class-name25 {
-  align-self: center;
-}
-
-.c-header-root-class-name27 {
-  align-self: center;
-}
-
-.c-header-root-class-name29 {
-  align-self: center;
-}
-
 @media(max-width: 991px) {
-  .c-header-text {
-    font-size: 13px;
-  }
-
-  .c-header-text1 {
-    font-size: 13px;
-  }
-
-  .c-header-text2 {
-    font-size: 13px;
-  }
-
-  .c-header-text3 {
-    font-size: 13px;
-  }
-
-  .c-header-notification {
-    font-size: 13px;
-  }
-
-  .c-header-signup {
-    font-size: 13px;
-  }
-
-  .c-header-login {
-    font-size: 13px;
-  }
-
   .c-header-container1 {
     justify-content: space-between;
-  }
-
-  .c-header-albuylogo {
-    width: 200px;
   }
 
   .c-header-search-bar {
@@ -565,18 +513,18 @@ html {
     flex-direction: row;
   }
 
-  .c-header-notification {
+  .c-header-text4 {
     font-size: 11px;
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
 
-  .c-header-signup {
+  .c-header-text5 {
     font-size: 11px;
     margin-left: 0;
     margin-right: var(--dl-space-space-unit);
   }
 
-  .c-header-login {
+  .c-header-text6 {
     font-size: 11px;
     margin-left: 0;
   }
@@ -600,13 +548,12 @@ html {
   }
 
   .c-header-albuylogo {
-    width: 120px;
     height: 2rem;
-    margin-left: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-unit);
   }
 
   .c-header-container3 {
-    margin-left: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-twounits);
   }
 
   .c-header-search-bar {
@@ -673,7 +620,7 @@ html {
     font-size: 8px;
   }
 
-  .c-header-notification {
+  .c-header-text4 {
     font-size: 8px;
     margin-top: 0px;
     margin-left: 0px;
@@ -681,7 +628,7 @@ html {
     margin-bottom: 0px;
   }
 
-  .c-header-signup {
+  .c-header-text5 {
     font-size: 8px;
     margin-top: 0px;
     margin-left: 0px;
@@ -689,7 +636,7 @@ html {
     margin-bottom: 0px;
   }
 
-  .c-header-login {
+  .c-header-text6 {
     font-size: 8px;
   }
 
@@ -708,7 +655,6 @@ html {
   }
 
   .c-header-albuylogo {
-    flex: 1;
     width: auto;
     height: 1.5rem;
     margin-left: var(--dl-space-space-halfunit);
