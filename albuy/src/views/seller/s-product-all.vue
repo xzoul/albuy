@@ -197,113 +197,184 @@
 
       </div>
 
-      <!--PRODUCTS-->
-      <div v-if="currentMenu=='product'" class="s-product-all-container06">
-        <div class="s-product-all-container07">
-          <div class="s-product-all-container08">
-            <div class="s-product-all-container09">
-              <button class="s-product-all-button07 button">
-                <span class="s-product-all-text27">Category</span>
-                <svg viewBox="0 0 1024 1024" class="s-product-all-icon16">
+      <!--PRODUCTS MENU-->
+      <div v-if="currentMenu=='product'" class="s-product-all-live-soldout-container06">
+        <div class="s-product-all-live-soldout-container07">
+          <div class="s-product-all-live-soldout-container08">
+            <div class="s-product-all-live-soldout-container09">
+              <button class="s-product-all-live-soldout-button07 button">
+                <span class="s-product-all-live-soldout-text27">Category</span>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  class="s-product-all-live-soldout-icon16"
+                >
                   <path d="M298 426h428l-214 214z"></path>
                 </svg>
               </button>
-              <button class="s-product-all-button08 button">
-                <span class="s-product-all-text28">Product Name</span>
-                <svg viewBox="0 0 1024 1024" class="s-product-all-icon18">
-                  <path d="M298 426h428l-214 214z"></path>
-                </svg>
-              </button>
+              <select v-model="ProductSearchType" class="s-product-all-live-soldout-select">
+                <option value="" hidden>Type</option>
+                <option value="ProductName">Product Name</option>
+                <option value="SKU">SKU</option>
+              </select>
             </div>
-            <div class="s-product-all-search-bar">
-              <input type="text" class="s-product-all-textinput input" />
-              <svg viewBox="0 0 1024 1024" class="s-product-all-searchheader">
+            <div class="s-product-all-live-soldout-search-bar">
+              <input v-model="ProductSearch"
+                type="text"
+                class="s-product-all-live-soldout-textinput input"
+              />
+              <svg
+                viewBox="0 0 1024 1024"
+                class="s-product-all-live-soldout-searchheader"
+              >
                 <path
                   d="M406 598q80 0 136-56t56-136-56-136-136-56-136 56-56 136 56 136 136 56zM662 598l212 212-64 64-212-212v-34l-12-12q-76 66-180 66-116 0-197-80t-81-196 81-197 197-81 196 81 80 197q0 42-20 95t-46 85l12 12h34z"
                 ></path>
               </svg>
             </div>
           </div>
-          <div class="s-product-all-container10">
-            <div class="s-product-all-container11">
-              <button class="s-product-all-button09 button">
-                <span class="s-product-all-text29">Category</span>
-                <svg viewBox="0 0 1024 1024" class="s-product-all-icon21">
-                  <path d="M298 426h428l-214 214z"></path>
-                </svg>
-              </button>
-              <div class="s-product-all-container12">
-                <span class="s-product-all-text30">Stock</span>
-                <button class="s-product-all-button10 button">
-                  <span class="s-product-all-text31">Min</span>
-                </button>
-                <span class="s-product-all-text32"><span>-</span></span>
-                <button class="s-product-all-button11 button">
-                  <span class="s-product-all-text34"><span>Max</span></span>
-                </button>
+          <div class="s-product-all-live-soldout-container10">
+            <div class="s-product-all-live-soldout-container11">
+              <select v-model="CategorySearchType" @change="categoryOnChange()" class="s-product-all-live-soldout-select1">
+                <option value="All">All</option>
+                <template v-for="category in Categories" :key="category">
+                  <option v-bind:value="category.CategoryName">{{category.CategoryName}}</option>
+                </template>
+              </select>
+              <div class="s-product-all-live-soldout-container12">
+                <span class="s-product-all-live-soldout-text28">Stock</span>
+                <input
+                  type="text"
+                  placeholder="min"
+                  class="s-product-all-live-soldout-textinput1 input"
+                />
+                <span class="s-product-all-live-soldout-text29">
+                  <span>-</span>
+                </span>
+                <input
+                  type="text"
+                  placeholder="max"
+                  class="s-product-all-live-soldout-textinput2 input"
+                />
               </div>
-              <div class="s-product-all-container13">
-                <span class="s-product-all-text36">Sales</span>
-                <button class="s-product-all-button12 button">
-                  <span class="s-product-all-text37">Min</span>
-                </button>
-                <span class="s-product-all-text38"><span>-</span></span>
-                <button class="s-product-all-button13 button">
-                  <span class="s-product-all-text40">Max</span>
-                </button>
+              <div class="s-product-all-live-soldout-container13">
+                <span class="s-product-all-live-soldout-text31">Sales</span>
+                <input
+                  type="text"
+                  placeholder="min"
+                  class="s-product-all-live-soldout-textinput3 input"
+                />
+                <span class="s-product-all-live-soldout-text32">
+                  <span>-</span>
+                </span>
+                <input
+                  type="text"
+                  placeholder="max"
+                  class="s-product-all-live-soldout-textinput4 input"
+                />
               </div>
             </div>
-            <div class="s-product-all-container14">
-              <button class="button s-product-all-button14">Search</button>
-              <button class="s-product-all-button15 button">Reset</button>
+            <div class="s-product-all-live-soldout-container14">
+              <button class="s-product-all-live-soldout-button08 button">
+                Search
+              </button>
+              <button class="s-product-all-live-soldout-button09 button">
+                Reset
+              </button>
             </div>
           </div>
         </div>
-        <div class="s-product-all-container15">
-          <div class="s-product-all-group126">
-            <button class="s-product-all-button16 button">
-              <span class="s-product-all-text41">All</span>
-              <svg viewBox="0 0 1024 1024" class="s-product-all-icon23">
+        <div class="s-product-all-live-soldout-container15">
+          <div class="s-product-all-live-soldout-group126">
+            <button class="s-product-all-live-soldout-button10 button">
+              <span class="s-product-all-live-soldout-text34">All</span>
+              <svg
+                viewBox="0 0 1024 1024"
+                class="s-product-all-live-soldout-icon19"
+              >
                 <path d="M298 426h428l-214 214z"></path>
               </svg>
             </button>
-            <span @click="switchTab('product', 'all')" :class="[currentMenu=='product' && currentTab=='all' ? 's-product-all-text42' : 's-product-all-text43']">All</span>
-            <span @click="switchTab('product', 'live')" :class="[currentMenu=='product' && currentTab=='live' ? 's-product-all-text42' : 's-product-all-text43']">Live</span>
-            <span @click="switchTab('product', 'soldout')" :class="[currentMenu=='product' && currentTab=='soldout' ? 's-product-all-text42' : 's-product-all-text44']">Sold Out</span>
-            <span @click="switchTab('product', 'violation')" :class="[currentMenu=='product' && currentTab=='violation' ? 's-product-all-text42' : 's-product-all-text45']">Violation</span>
+            <span @click="switchTab('product', 'all')" :class="[currentTab=='all' ? 's-product-all-live-soldout-text35' : 's-product-all-live-soldout-text36']">All</span>
+            <span @click="switchTab('product', 'live')" :class="[currentTab=='live' ? 's-product-all-live-soldout-text35' : 's-product-all-live-soldout-text36']">Live</span>
+            <span @click="switchTab('product', 'soldout')" :class="[currentTab=='soldout' ? 's-product-all-live-soldout-text35' : 's-product-all-live-soldout-text37']">Sold Out</span>
+            <span @click="switchTab('product', 'violation')" :class="[currentTab=='violation' ? 's-product-all-live-soldout-text35' : 's-product-all-live-soldout-text38']">Violation</span>
           </div>
 
-          <!--PRODUCT TAB-->
-          <div v-if="currentMenu=='product'">
-            <div v-if="currentTab=='all'" class="s-product-all-container16">
-              <span class="s-product-all-text46">0 Products</span>
-              <button @click="addNewProduct()" class="button s-product-all-button17">
-                Add a New Product
-              </button>
-            </div>
 
-            <div v-if="currentTab=='live'" class="s-product-all-container16">
-              <span class="s-product-all-text46">0 Products</span>
-            </div>
-            <div v-if="currentTab=='soldout'" class="s-product-all-container16">
-              <span class="s-product-all-text46">0 Products</span>
-            </div>
+          <div class="s-product-all-live-soldout-container16">
+            <span class="s-product-all-live-soldout-text39">{{getSKUsLength(currentTab)}} Products</span>
+            <button @click="addNewProduct()" v-if="currentTab=='all'" class="s-product-all-live-soldout-button11 button">
+              Add a New Product
+            </button>
+          </div>
 
-            <div v-if="currentTab=='violation'" class="s-product-violation-container16">
-              <span class="s-product-violation-text46">0 Products</span>
-              <div class="s-product-violation-container17">
-                <span class="s-product-violation-text47">Suspended</span>
-                <span class="s-product-violation-text48">Albuy Deleted</span>
-              </div>
-            </div>
+          <div v-if="currentTab != 'violation'" class="s-product-all-live-soldout-container17">
+            <span class="s-product-all-live-soldout-title">Product Name</span>
+            <span class="s-product-all-live-soldout-title2">SKU</span>
+            <span class="s-product-all-live-soldout-title3">Variations</span>
+            <span class="s-product-all-live-soldout-title4">Price</span>
+            <span class="s-product-all-live-soldout-title6">Outgoing Stock</span>
+            <span class="s-product-all-live-soldout-title61">Stock on Hand</span>
+            <span class="s-product-all-live-soldout-title62">Sales</span>
+            <span class="s-product-all-live-soldout-title63">Promo</span>
+            <span class="s-product-all-live-soldout-title64">Status</span>
+            <span class="s-product-all-live-soldout-title65">Action</span>
+            <template v-for="sku in categoryQuery()" :key="sku">
+              <template v-if="currentTab == formatStatus(sku.Status) || currentTab == 'all'">
+                <span class="s-product-all-live-soldout-text40">
+                  <!-- USE THIS IF ID IS NEEDED
+                  <template v-if="sku.SKUData != undefined">
+                    <template v-if="sku.SKUData.VariationOptionDatas.length > 0">
+                      {{sku.SKUData.VariationOptionDatas[0].ProductData.ProductName}}
+                    </template>
+                  </template>
+                  -->
+                  {{getProductNameFromSKU(sku.SKU)}}
+                </span>
+                <span class="s-product-all-live-soldout-text41">{{sku.SKU}}</span>
+                <span class="s-product-all-live-soldout-text42">
+                  <!-- USE THIS IF ID IS NEEDED
+                  <template v-if="sku.SKUData != undefined">
+                    <template v-for="optionData of sku.SKUData.VariationOptionDatas">
+                      {{optionData.Option}} {{}}
+                    </template>
+                  </template>
+                  -->
+                  <template v-for="variation of getVariationsFromSKU(sku.SKU)">
+                    {{variation}} {{}}
+                  </template>
+                </span>
+                <span class="s-product-all-live-soldout-text43">{{sku.Price}}</span>
+                <span class="s-product-all-live-soldout-text44">{{sku.OutgoingStock}}</span>
+                <span class="s-product-all-live-soldout-text45">{{sku.StockOnHand}}</span>
+                <span class="s-product-all-live-soldout-text46">Sales</span>
+                <span class="s-product-all-live-soldout-text47">Promo</span>
+                <span class="s-product-all-live-soldout-text48">{{sku.Status}}</span>
+                <span class="s-product-all-live-soldout-text49"></span>
+              </template>
+            </template>
           </div>
-          <div class="s-product-all-container17">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1564320382348-c06ae02a3897?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQzfHx0YWJsZXxlbnwwfHx8fDE2NTU5NTc3MDQ&amp;ixlib=rb-1.2.1&amp;h=300"
-              class="s-product-all-image"
-            />
+
+          <div v-if="currentTab == 'violation'" class="s-product-violation-container14">
+            <span class="s-product-all-live-soldout-title">Product Name</span>
+            <span class="s-product-all-live-soldout-title">Updated On</span>
+            <span class="s-product-all-live-soldout-title">Deadline</span>
+            <span class="s-product-all-live-soldout-title">Violation Reason</span>
+            <span class="s-product-all-live-soldout-title">Suggestion</span>
+            <span class="s-product-all-live-soldout-title">Action</span>
+
+            <template v-for="sku in SKUs" :key="sku">
+              <template v-if="currentTab == formatStatus(sku.Status)">
+                <span class="s-product-all-live-soldout-text41">Basket brown big</span>
+                <span class="s-product-all-live-soldout-text41"> </span>
+                <span class="s-product-all-live-soldout-text41"> </span>
+                <span class="s-product-all-live-soldout-text41"> </span>
+                <span class="s-product-all-live-soldout-text41"> </span>
+                <span class="s-product-all-live-soldout-text41"> </span>
+              </template>
+            </template>
           </div>
+
         </div>
       </div>
       
@@ -385,7 +456,7 @@
 
           <div v-if="currentTab=='all'" class="s-discount-promotions-all-container14">
             <span class="s-discount-promotions-all-text35">0 Orders</span>
-            <button class="button s-discount-promotions-all-button12">
+            <button @click="switchTab('discount_promotions_add', 'all')" class="button s-discount-promotions-all-button12">
               Create New Promo
             </button>
           </div>
@@ -897,11 +968,14 @@
                   Shop Name
                 </span>
                 <div class="s-shop-profile-and-decoration-container16">
-                  <span class="s-shop-profile-and-decoration-text32">
-                    OTOP HUB
-                  </span>
+                  <input v-model="ShopName"
+                  type = "text"
+                  class="s-shop-profile-and-decoration-text32"
+                  maxlength="30"
+                  minlength="5"
+                  >
                   <span class="s-shop-profile-and-decoration-text33">
-                    <span>8</span>
+                    <span>{{ShopName.length}}</span>
                     <span>/30</span>
                   </span>
                 </div>
@@ -911,15 +985,11 @@
                   Shop Description
                 </span>
                 <div class="s-shop-profile-and-decoration-container18">
-                  <span class="s-shop-profile-and-decoration-text37">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisiea commodo consequat.
-                  </span>
+                  <textarea v-model="ShopDescription" rows="4" cols="50" maxlength="30" class="s-shop-profile-and-decoration-text37">
+                  </textarea>
                 </div>
                 <span class="s-shop-profile-and-decoration-text38">
-                  <span>8</span>
+                  <span>{{ShopDescription.length}}</span>
                   <span>/30</span>
                 </span>
               </div>
@@ -930,7 +1000,7 @@
           <button class="button s-shop-profile-and-decoration-button7">
             Cancel
           </button>
-          <button class="s-shop-profile-and-decoration-button8 button">
+          <button @click="editShop()" class="s-shop-profile-and-decoration-button8 button">
             Save
           </button>
         </div>
@@ -941,7 +1011,7 @@
         <div class="s-settings-my-address-container08">
           <div class="s-settings-my-address-container09">
             <span class="s-settings-my-address-text28">My Addresses</span>
-            <button class="button s-settings-my-address-button07">
+            <button @click="addNewAddress()" class="button s-settings-my-address-button07">
               Add a New Address
             </button>
           </div>
@@ -949,7 +1019,8 @@
         <span class="s-settings-my-address-text29">
           Manage your shipping addresses
         </span>
-        <div class="s-settings-my-address-container10">
+
+        <div v-for="address in Addresses" :key="address" class="s-settings-my-address-container10">
           <div class="s-settings-my-address-container11">
             <div class="s-settings-my-address-container12">
               <svg
@@ -967,67 +1038,26 @@
                   <span class="s-settings-my-address-text32">Address</span>
                 </div>
                 <div class="s-settings-my-address-container15">
-                  <span class="s-settings-my-address-text33">Decy Abion</span>
-                  <span class="s-settings-my-address-text34">639509175493</span>
+                  <span class="s-settings-my-address-text33">{{address.FullName}}</span>
+                  <span class="s-settings-my-address-text34">{{address.PhoneNumber}}</span>
                   <div class="s-settings-my-address-container16">
                     <span class="s-settings-my-address-text35">
-                      <span>Purok 1 165 Binitayan Daraga Albay</span>
+                      <span>{{address.StreetAddress}}</span>
                       <span></span>
                     </span>
                     <span class="s-settings-my-address-text38">
-                      <span>Binitayan, Daraga</span>
+                      <span>{{address.Barangay}}, {{address.Municipality}}</span>
                     </span>
                     <span class="s-settings-my-address-text40">
                       <span></span>
-                      <span>South Luzon, Albay 4501</span>
+                      <span>{{address.Province}}, {{address.PostalCode}}</span>
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="s-settings-my-address-button08 button">
+            <button @click="editAddress(address.objectId)" class="s-settings-my-address-button08 button">
               <span class="s-settings-my-address-text43">Edit</span>
-            </button>
-          </div>
-        </div>
-        <div class="s-settings-my-address-container17">
-          <div class="s-settings-my-address-container18">
-            <div class="s-settings-my-address-container19">
-              <svg
-                viewBox="0 0 585.1428571428571 1024"
-                class="s-settings-my-address-icon18"
-              >
-                <path
-                  d="M438.857 365.714c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM585.143 365.714c0 34.857-4 70.857-18.857 102.286l-208 442.286c-12 25.143-38.286 40.571-65.714 40.571s-53.714-15.429-65.143-40.571l-208.571-442.286c-14.857-31.429-18.857-67.429-18.857-102.286 0-161.714 130.857-292.571 292.571-292.571s292.571 130.857 292.571 292.571z"
-                ></path>
-              </svg>
-              <div class="s-settings-my-address-container20">
-                <div class="s-settings-my-address-container21">
-                  <span class="s-settings-my-address-text44">Full Name</span>
-                  <span class="s-settings-my-address-text45">Phone Number</span>
-                  <span class="s-settings-my-address-text46">Address</span>
-                </div>
-                <div class="s-settings-my-address-container22">
-                  <span class="s-settings-my-address-text47">Decy Abion</span>
-                  <span class="s-settings-my-address-text48">639509175493</span>
-                  <div class="s-settings-my-address-container23">
-                    <span class="s-settings-my-address-text49">
-                      <span>Purok 1 165 Binitayan Daraga Albay</span>
-                      <span></span>
-                    </span>
-                    <span class="s-settings-my-address-text52">
-                      <span>Binitayan, Daraga</span>
-                    </span>
-                    <span class="s-settings-my-address-text54">
-                      <span></span>
-                      <span>South Luzon, Albay 4501</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="s-settings-my-address-button09 button">
-              <span class="s-settings-my-address-text57">Edit</span>
             </button>
           </div>
         </div>
@@ -1058,7 +1088,7 @@
                 <div class="s-settings-account-container15">
                   <span class="s-settings-account-text31">Username</span>
                   <div class="s-settings-account-container16">
-                    <input
+                    <input v-model="NewUsername"
                       type="text"
                       placeholder="placeholder"
                       class="s-settings-account-textinput input"
@@ -1072,8 +1102,8 @@
                 </div>
               </div>
               <div class="s-settings-account-container17">
-                <button class="s-settings-account-button07 button">Cancel</button>
-                <button class="s-settings-account-button08 button">Save</button>
+                <button @click="cancelUserDetails('username')" class="s-settings-account-button07 button">Cancel</button>
+                <button @click="editUserDetails('username')" class="s-settings-account-button08 button">Save</button>
               </div>
             </div>
           </div>
@@ -1092,15 +1122,15 @@
             <div class="s-settings-account-container20">
               <div class="s-settings-account-container21">
                 <span class="s-settings-account-text34">Phone Number</span>
-                <input
+                <input v-model="NewPhone"
                   type="text"
-                  placeholder="placeholder"
+                  placeholder="+639"
                   class="s-settings-account-textinput1 input"
                 />
               </div>
               <div class="s-settings-account-container22">
-                <button class="s-settings-account-button09 button">Cancel</button>
-                <button class="s-settings-account-button10 button">Save</button>
+                <button @click="cancelUserDetails('phone')" class="s-settings-account-button09 button">Cancel</button>
+                <button @click="editUserDetails('phone')" class="s-settings-account-button10 button">Save</button>
               </div>
             </div>
           </div>
@@ -1116,19 +1146,19 @@
             <div class="s-settings-account-container25">
               <div class="s-settings-account-container26">
                 <span class="s-settings-account-text36">Email Address</span>
-                <input
+                <input v-model="NewEmail"
                   type="text"
-                  placeholder="placeholder"
+                  placeholder="name@email.com"
                   class="s-settings-account-textinput2 input"
                 />
               </div>
               <div class="s-settings-account-container27">
-                <button class="s-settings-account-button11 button">Cancel</button>
-                <button class="s-settings-account-button12 button">Save</button>
+                <button @click="cancelUserDetails('email')" class="s-settings-account-button11 button">Cancel</button>
+                <button @click="editUserDetails('email')" class="s-settings-account-button12 button">Save</button>
               </div>
             </div>
           </div>
-          <div class="s-settings-account-container28">
+          <div v-if="AuthData.length <= 0" class="s-settings-account-container28">
             <div class="s-settings-account-container29">
               <svg
                 viewBox="0 0 658.2857142857142 1024"
@@ -1204,21 +1234,220 @@
     },
 
     beforeMount(){
+      this.loadData();
+      if(this.$route.query.Tab != undefined){
+        this.switchTab(this.$route.query.Tab,"");
+      }
       console.log(Parse.User.current().get("AccountID"));
     },
 
     data(){
       return{
-         currentTab: 'all',
-         currentMenu: 'discount_promotions_add_disc_product',
+        currentTab: 'all',
+        currentMenu: 'product',
+
+        //Product
+        SKUs: [],
+        Categories: [],
+        NameSearchType: "ProductName",
+        CategorySearchType: "All",
+        StockSearch: ["", ""],
+        SalesSearch: ["", ""],
+        ProductSearch: "",
+        ProductSearchType: "",
+
+        //Shop 
+        ShopName: "OTOP HUB",
+        ShopDescription: "Yeah",
+
+        //Account
+        Addresses: [],
+        Username: "",
+        NewUsername: "",
+        Phone: Parse.User.current().get("phone"),
+        NewPhone: Parse.User.current().get("phone"),
+        Email: Parse.User.current().get("email"),
+        NewEmail: Parse.User.current().get("email"),
+        AuthData: Parse.User.current().get("authData"),
       }
     },
 
     methods:{
+      //Product functions
+      formatStatus(stat){
+        return stat.replace(/\s+/g, '').toLowerCase();
+      },
+
+      getSKUsLength(stat){
+        var i = 0;
+        if(stat == "all") return this.SKUs.length;
+        if(stat == "live") stat = "Live";
+        else if(stat == "soldout") stat = "Sold Out";
+        else if(stat == "violation") stat = "Violation";
+        for(var key in this.SKUs){
+          if(this.SKUs[key].Status == stat) i++;
+        }
+        return i;
+      },
+
+      getProductNameFromSKU(sku){
+        return sku.split("_")[0];
+      },
+
+      getVariationsFromSKU(sku){
+        var arr = sku.split("_");
+        arr.shift();
+        return arr;
+      },
+
+      categoryOnChange(){
+        console.log("?");
+        console.log(this.categoryQuery());
+      },
+
+      //TODO add search on stock and sales
+      categoryQuery(){
+        var arr = [];
+        if(this.CategorySearchType == "All"){
+          return this.productQuery();
+        }
+
+        for(var sku of this.productQuery()){
+          if(sku.SKUData.VariationOptionDatas.length > 0){
+
+            console.log(this.CategorySearchType, "-", sku.SKUData.VariationOptionDatas[0].ProductData.CategoryData.CategoryName);
+            if(this.CategorySearchType == sku.SKUData.VariationOptionDatas[0].ProductData.CategoryData.CategoryName){
+              arr.push(sku);
+            }
+          }
+        }
+
+        return arr;
+      },
+
+      productQuery(){
+        if(this.ProductSearch !== ""){
+            return this.SKUs.filter((sku)=>{
+                var value;
+                switch(this.ProductSearchType) {
+                    case "ProductName":
+                        value = this.getProductNameFromSKU(sku.SKU);
+                        break;
+                    case "SKU":
+                        value = sku.SKU;
+                        break;
+                    default:
+                        // code block
+                }
+                return this.ProductSearch.toLowerCase().split(' ').every(v => value.toLowerCase().includes(v))
+            });
+        }
+        else{
+            return this.SKUs;
+        }
+    },
+
+      //Edit this
       addNewProduct(){
         this.$router.push({
-          name: 's-add-new-product',
+          name: 's-add-new-product-3',
         });
+      },
+
+      //Shop FUnctions
+      async editShop(){
+        var params = {
+          "ShopID" : Parse.User.current().get("AccountID"),
+          "ShopName" : this.ShopName,
+          "ShopDescription" : this.ShopDescription,
+        }
+        await Parse.Cloud.run("EditShop", params);
+        alert("Edited Shop!");
+      },
+
+      //Account Functions
+      addNewAddress(){
+        this.$router.push({
+          name: 's-setup-shop-info',
+          query: {
+            ShopAddressID: "new",
+          }
+        });
+      },
+
+      editAddress(id){
+        this.$router.push({
+          name: 's-setup-shop-info',
+          query: {
+            ShopAddressID: id,
+          }
+        });
+      },
+
+      async editUserDetails(type){
+        var params = {};
+        if(type == "phone"){
+          params["phone"] = this.NewPhone;
+          await Parse.User.current().set("phone", this.NewPhone);
+          await Parse.User.current().save();
+          await Parse.Cloud.run("EditUser", params);
+          alert("Phone Number Saved!");
+        }
+        else if(type == "email"){
+          params["email"] = this.NewEmail;
+          await Parse.User.current().set("email", this.NewEmail);
+          await Parse.User.current().save();
+          await Parse.Cloud.run("EditUser", params);
+          alert("Email Saved!")
+        }
+        //CHECK USERNAME if valid
+        else if(type == "username"){
+          params = {
+            "ShopID" : Parse.User.current().get("AccountID"),
+            "ShopUsername" : this.NewUsername,
+          }
+          await Parse.Cloud.run("EditShop", params);
+          alert("Username Saved!")
+        }
+      },
+
+      async cancelUserDetails(type){
+        if(type == "phone"){
+          this.NewPhone = this.Phone;
+        }
+        else if(type == "email"){
+          this.NewEmail = this.Email;
+        }
+        else if(type == "username"){
+          this.NewUsername = this.Username;
+        }
+      },
+
+      //Other Functions
+      async loadData(){
+        var params = {};
+        //Products Data
+        this.SKUs = JSON.parse(await Parse.Cloud.run("GetSKUs"));
+        this.Categories = JSON.parse(await Parse.Cloud.run("GetCategories"));
+        for await(var sku of this.SKUs){
+          params = {"SKUID" : sku.objectId};
+          sku["SKUData"] = JSON.parse(await Parse.Cloud.run("GetSKUData", params));
+          sku["ModifiedProductName"] = this.getProductNameFromSKU(sku.SKU);
+          sku["ModifiedVariations"] = this.getVariationsFromSKU(sku.SKU);
+          //console.log(sku["SKUData"].VariationOptionDatas);
+        }
+        alert("DONE LOADING SKU!");
+
+        //Shop Data
+        params = {"ShopID" : Parse.User.current().get("AccountID")};
+        var shopData = JSON.parse(await Parse.Cloud.run("GetShopData", params));
+        this.ShopName = shopData.ShopName;
+        this.ShopDescription = shopData.ShopDescription;
+        //My Addresses
+        this.Addresses = JSON.parse(await Parse.Cloud.run("GetShopAddresses", params));
+        //Account Data
+        this.Username = shopData.ShopUsername;
+        this.NewUsername = this.Username;
       },
 
       switchTab(menu, tab){
@@ -1240,6 +1469,8 @@
 <style>
 html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
 
+@import '../../assets/css/seller/s-product-all.css';
+
 @import '../../assets/css/seller/s-shipment-and-orders-cancellation.css';
 @import '../../assets/css/seller/s-shipment-and-orders-refund.css';
 @import '../../assets/css/seller/s-shipment-and-orders.css';
@@ -1259,6 +1490,17 @@ html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  bord
 
 @import '../../assets/css/seller/s-settings-account.css';
 @import '../../assets/css/seller/s-settings-my-address.css';
+
+.s-product-violation-container14 {
+  display: grid;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.s-product-violation-container14 {
+  padding: var(--dl-space-space-halfunit);
+}
 
 .s-product-violation-container17 {
   display: flex;
