@@ -4,7 +4,7 @@
     <div class="c-product-container01">
       <div class="c-product-link">
         <button class="c-product-button button">
-          <span class="c-product-text">Arts &amp; Crafts</span>
+          <span class="c-product-text">{{ CategoryData.CategoryName }}</span>
           <img alt="pastedImage" src="/playground_assets/pastedimage-kl8d-1500h.png" class="c-product-pasted-image" />
         </button>
         <button class="c-product-button1 button">
@@ -87,33 +87,30 @@
             <span class="c-product-shop">OTOP HUB LEGAZPI</span>
           </button>
           <span class="c-product-p-r-o-d-u-c-t-n-a-m-e">
-            Iphone X rainbow colored plated with diamonds and golds
+            {{ ProductName }}
           </span>
           <div class="c-product-ratings-and-sales">
             <img alt="pastedImage" src="/playground_assets/pastedimage-z6o-200h.png" class="c-product-pasted-image02" />
             <span class="c-product-text03">
               <span>
                 124
-                <span v-html="rawz9gb"></span>
+                <span v-html="rawnu53"></span>
               </span>
               <span class="c-product-text05">Ratings</span>
             </span>
             <span class="c-product-text06">
               <span>
                 286
-                <span v-html="rawloyg"></span>
+                <span v-html="rawox4q"></span>
               </span>
               <span class="c-product-text08">Sold</span>
             </span>
           </div>
-          <span class="c-product-p-r-i-c-e">₱150</span>
+          <span class="c-product-p-r-i-c-e">₱{{ ProductPrice }}</span>
           <div class="c-product-product-details">
             <span class="c-product-details">Product Details:</span>
             <span class="c-product-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisiea
-              commodo consequat.
+              {{ ProductDescription }}
             </span>
           </div>
           <div class="c-product-shipping">
@@ -168,7 +165,7 @@
               <span class="c-product-text15">
                 <span>
                   Item Details
-                  <span v-html="raw3j49"></span>
+                  <span v-html="rawetbf"></span>
                 </span>
               </span>
             </button>
@@ -201,45 +198,6 @@
       <div class="c-product-container02">
         <div class="c-product-container03">
           <span class="c-product-text21"><span>Ratings</span></span>
-          <div class="c-product-container04">
-            <div class="c-product-container05">
-              <span class="c-product-text23"><span>4.5</span></span>
-              <img alt="pastedImage" src="/playground_assets/pastedimage-6kxu-1500h.png"
-                class="c-product-pasted-image03" />
-            </div>
-            <div class="c-product-container06">
-              <div class="c-product-container07">
-                <img alt="pastedImage" src="/playground_assets/pastedimage-igxl-200h.png"
-                  class="c-product-pasted-image04" />
-                <img alt="pastedImage" src="/playground_assets/pastedimage-h9ek-200h.png"
-                  class="c-product-pasted-image05" />
-              </div>
-              <div class="c-product-container08">
-                <img alt="pastedImage" src="/playground_assets/pastedimage-n6k-200h.png"
-                  class="c-product-pasted-image06" />
-                <img alt="pastedImage" src="/playground_assets/pastedimage-wwye-200h.png"
-                  class="c-product-pasted-image07" />
-              </div>
-              <div class="c-product-container09">
-                <img alt="pastedImage" src="/playground_assets/pastedimage-jrrj-200h.png"
-                  class="c-product-pasted-image08" />
-                <img alt="pastedImage" src="/playground_assets/pastedimage-7xer-200h.png"
-                  class="c-product-pasted-image09" />
-              </div>
-              <div class="c-product-container10">
-                <img alt="pastedImage" src="/playground_assets/pastedimage-3qr-200h.png"
-                  class="c-product-pasted-image10" />
-                <img alt="pastedImage" src="/playground_assets/pastedimage-y5w7-200h.png"
-                  class="c-product-pasted-image11" />
-              </div>
-              <div class="c-product-container11">
-                <img alt="pastedImage" src="/playground_assets/pastedimage-o7d-200h.png"
-                  class="c-product-pasted-image12" />
-                <img alt="pastedImage" src="/playground_assets/pastedimage-e3m-200h.png"
-                  class="c-product-pasted-image13" />
-              </div>
-            </div>
-          </div>
         </div>
         <div class="c-product-container12">
           <span class="c-product-text25"><span>Reviews</span></span>
@@ -261,42 +219,6 @@
               </span>
             </div>
           </div>
-          <div class="c-product-container16">
-            <div class="c-product-container17">
-              <img alt="image"
-                src="https://images.unsplash.com/photo-1644982653424-1bfed7f972a2?ixid=Mnw5MTMyMXwxfDF8YWxsfDQ2fHx8fHx8Mnx8MTY1NjU3ODExMg&amp;ixlib=rb-1.2.1&amp;w=200"
-                class="c-product-profileimg1" />
-              <span class="c-product-text29"><span>Decy Abion</span></span>
-            </div>
-            <div class="c-product-container18">
-              <img alt="pastedImage" src="/playground_assets/pastedimage-6kxu-1500h.png"
-                class="c-product-pasted-image15" />
-              <span class="c-product-description2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisiea commodo consequat.
-              </span>
-            </div>
-          </div>
-          <div class="c-product-container19">
-            <div class="c-product-container20">
-              <img alt="image"
-                src="https://images.unsplash.com/photo-1655720408861-8b04c0724fd9?ixid=Mnw5MTMyMXwwfDF8YWxsfDQ3fHx8fHx8Mnx8MTY1NjU3ODExMg&amp;ixlib=rb-1.2.1&amp;w=200"
-                class="c-product-profileimg2" />
-              <span class="c-product-text31"><span>Decy Abion</span></span>
-            </div>
-            <div class="c-product-container21">
-              <img alt="pastedImage" src="/playground_assets/pastedimage-6kxu-1500h.png"
-                class="c-product-pasted-image16" />
-              <span class="c-product-description3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisiea commodo consequat.
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -305,6 +227,7 @@
 </template>
 
 <script>
+import Parse from 'parse';
 import CHeader from '@/components/c-header'
 import AppFooter from '@/components/footer'
 
@@ -317,9 +240,14 @@ export default {
 
   data() {
     return {
-      rawz9gb: ' ',
-      rawloyg: ' ',
-      raw3j49: ' ',
+      ProductName: '',
+      ProductPrice: '',
+      ProductID: '',
+      CategoryID: '',
+      rawnu53: ' ',
+      rawox4q: ' ',
+      rawetbf: ' ',
+      CategoryData: {},
     }
   },
 
@@ -332,6 +260,22 @@ export default {
       },
     ],
   },
+
+  methods: {
+    async getProductData(ProductID) {
+      var param = { "ProductID": ProductID };
+      var data = JSON.parse(await Parse.Cloud.run("GetProductData", param));
+      this.ProductName = data.ProductName;
+      this.ProductPrice = data.ProductPrice;
+      this.ProductDescription = data.ProductDescription;
+
+      param = { "CategoryID": data.CategoryID };
+      this.CategoryData = JSON.parse(await Parse.Cloud.run("GetCategoryData", param));
+    },
+  },
+  beforeMount() {
+    this.getProductData(this.$route.query.ProductID);
+  }
 }
 </script>
 
