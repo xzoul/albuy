@@ -1347,10 +1347,9 @@
         }
     },
 
-      //Edit this
       addNewProduct(){
         this.$router.push({
-          name: 's-add-new-product-3',
+          name: 's-add-new-product',
         });
       },
 
